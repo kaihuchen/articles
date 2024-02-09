@@ -1,4 +1,5 @@
 # Ensemble AI
-Holding place for various articles
+Holding place for EAI article
+
 
 --------------------------
