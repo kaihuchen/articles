@@ -1,5 +1,5 @@
 <header class="page-header" role="banner">
-  <img src="/assets/images/EnsembleAI.png" alt="Banner Image">
+  <img src="assets/images/EnsembleAI.png" alt="Banner Image" style="max-height:200px">
 </header>
 
 *DRAFT*
