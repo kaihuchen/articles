@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+    max-width: 100%;
+}
+
+section {
+    color: #000;
+}
+
+header {
+    border-radius: 0;
+    background: #0;
+    background: linear-gradient(#DDFBFC, #C6EAFA);
+    position: relative;
+    padding: 0;
+    border-bottom: 0;
+}
