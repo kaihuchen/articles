@@ -1,3 +1,7 @@
+<header class="page-header" role="banner">
+  <img src="/assets/images/EnsembleAI.png" alt="Banner Image">
+</header>
+
 *DRAFT*
 
 # Ensemble AI
