@@ -1,6 +1,6 @@
-<header class="page-header" role="banner">
-  <img src="assets/images/EnsembleAI.png" alt="Banner Image" style="max-height:200px">
-</header>
+<!-- <header class="page-header" role="banner">
+  <img src="assets/images/EnsembleAI.png" alt="Banner Image" style="">
+</header> -->
 
 *DRAFT*
 
