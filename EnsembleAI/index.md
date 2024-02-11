@@ -1,6 +1,6 @@
-<header class="page-header" role="banner">
+<banner class="page-header" role="banner">
   <img src="assets/images/EnsembleAI.png" alt="Banner Image" style="">
-</header>
+</banner>
 
 *DRAFT*
 
