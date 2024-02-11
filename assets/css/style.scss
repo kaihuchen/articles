@@ -7,9 +7,11 @@
 //     max-width: 100%;
 // }
 
-// section {
-//     color: #000;
-// }
+section {
+    color: #000;
+    background: #fff;
+    font-size: 17px;
+}
 
 banner {
     border-radius: 0;
@@ -18,4 +20,9 @@ banner {
     position: relative;
     padding: 0;
     border-bottom: 0;
+}
+
+body {
+    color: #000;
+    background: #aaa;
 }
