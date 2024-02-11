@@ -3,19 +3,22 @@
 
 @import "{{ site.theme }}";
 
-// header {
-//     max-width: 100%;
-// }
+section {
+    color: #000;
+    background: #f00;
+    font-size: 17px;
+}
 
-// section {
-//     color: #000;
-// }
+banner {
+    border-radius: 0;
+    background: #0;
+    background: linear-gradient(#DDFBFC, #C6EAFA);
+    position: relative;
+    padding: 0;
+    border-bottom: 0;
+}
 
-// header {
-//     border-radius: 0;
-//     background: #0;
-//     background: linear-gradient(#DDFBFC, #C6EAFA);
-//     position: relative;
-//     padding: 0;
-//     border-bottom: 0;
-// }
+body {
+    color: #000;
+    background: #aaa;
+    
