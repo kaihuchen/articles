@@ -32,9 +32,9 @@ This debate proceeds as follows:
 3. Nuanced Discussion:
    - Unlike traditional debates where one side wins and the other loses, constructive critique debates encourage nuanced discussion.
    - Participants explore shades of gray, acknowledge valid points from the opposing side, and seek common ground.
-4. Audience Engagement:
+<!-- 4. Audience Engagement:
    - The audience plays an essential role by actively listening to both opinions.
-   - They can ask questions, seek clarification, and contribute to the depth of the debate.
+   - They can ask questions, seek clarification, and contribute to the depth of the debate. -->
 5. Resolution or Synthesis:
    - Instead of declaring a winner, the goal is to arrive at a deeper understanding of the topic.
    - Participants may synthesize elements from both opinions or propose a resolution that incorporates the best aspects of each side.
