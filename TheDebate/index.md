@@ -1,5 +1,5 @@
 <banner class="page-header" role="banner">
-  <img src="/assets/images/jousting.png" alt="Banner Image" style="">
+  <img src="../assets/images/jousting.png" alt="Banner Image" style="">
 </banner>
 
 # Advices from GenAI Chatbots to the GenAI Startups
@@ -7,9 +7,9 @@
 
 ## Summary
 
-- We set up a debate between two leading GenAI chatbots, the Google Gemini and OpenAI GPT-4, regarding the future direction of GenAI startups.
-- Gemini and GPT4 are both capable debators, and they do offer substantial and cogent advices to GenAI startups
-- As we begin to deploy all kinds of ever more sophisticated chatbots into our world, this case study offers a glimpse into the need of having some kind of an Ensemble AI framework for the following reasons:
+- We set up a debate between two leading GenAI chatbots, the *Google Gemini Advanced* and *OpenAI GPT-4*, regarding the future direction of GenAI startups.
+- Gemini and GPT4 are both capable debators, and they do offer substantial and cogent advices to GenAI startups.
+- As we begin to deploy all kinds of sophisticated chatbots into our world, this case study offers a glimpse into the need for having some kind of an Ensemble AI framework for the following reasons:
    - Improved accuracy by combining predictions and perspectives
    - Check-and-balance of chatbot power
    - Robustness and redundancy
