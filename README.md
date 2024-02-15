@@ -5,10 +5,3 @@
 - [LMM for a Home GuandianBot](https://github.com/kaihuchen/GuardianBot/blob/main/README.md): testing out the potential of using LMM (Large Multimodal Models) under the scenario of a home robot for detecting any hazards or threats, taking actions or escalating alerts as appropriate.
 - 
 
-<banner class="page-header" role="banner">
-  <img src="assets/images/EnsembleAI.png" alt="Banner Image" style="">
-</banner>
-
-<iframe width="100%" height="653" frameborder="0"
-  src="https://observablehq.com/embed/d2e129fb246bbbec?cells=chart"></iframe>
-  
