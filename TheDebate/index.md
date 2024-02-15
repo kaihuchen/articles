@@ -2,7 +2,7 @@
   <img src="/assets/images/jousting.png" alt="Banner Image" style="">
 </banner>
 
-# An Advice from GenAI Chatbots to the GenAI Startups
+# Advices from GenAI Chatbots to the GenAI Startups
 
 
 ## Summary
