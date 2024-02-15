@@ -105,3 +105,5 @@ Here are some use cases that highlight the benefits of collaboration among multi
 
 In all these cases, the collaboration of multiple chatbots allows for a level of service and personalization that would not be possible with a single chatbot. The key is the ability of the chatbots to work together seamlessly, passing information between each other as needed to provide the user with a comprehensive, personalized solution.
 
+<iframe width="100%" height="653" frameborder="0"
+  src="https://observablehq.com/embed/d2e129fb246bbbec?cells=chart"></iframe>
