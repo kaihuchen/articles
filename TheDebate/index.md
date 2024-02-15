@@ -21,7 +21,7 @@
 
 Running a GenAI (Generative AI) startup feels like racing ahead of elephants — you need to move swiftly, and you get trampled instantly for any missteps.
 
-<img align="right" src="/assets/images/elephants.png" alt="Image description">
+<img align="right" src="../assets/images/elephants.png" alt="Image description">
 
 
 So How can we anticipate the future of the GenAI landscape, especially from a startup’s perspective?
