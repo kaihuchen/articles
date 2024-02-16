@@ -2,13 +2,10 @@
   <img src="../assets/images/jousting.png" alt="Banner Image" style="">
 </banner>
 
-# Advices from GenAI Chatbots to the GenAI Startups
-
-
-## Summary
+# A Message from GenAI Chatbots to the GenAI Startups
 
 - We set up a debate between two leading GenAI chatbots, the *Google Gemini Advanced* and *OpenAI GPT-4*, regarding the future direction of GenAI startups.
-- Gemini and GPT4 are both capable debators, and they do offer substantial and cogent advices to GenAI startups.
+- Gemini and GPT4 are both capable debators, and they do offer substantial and cogent advices to GenAI startups. But of course please use it only as a reference, do not bet your startup on such advices.
 - As we begin to deploy all kinds of sophisticated chatbots into our world, this case study offers a glimpse into the need for having some kind of an Ensemble AI framework for the following reasons:
    - Improved accuracy by combining predictions and perspectives
    - Check-and-balance of chatbot power
@@ -21,8 +18,7 @@
 
 Running a GenAI (Generative AI) startup feels like racing ahead of elephants — you need to move swiftly, and you get trampled instantly for any missteps.
 
-<img align="right" src="../assets/images/elephants.png" alt="Image description">
-
+<img src="../assets/images/elephants.png" alt="Image description" width="80%" style="display:block; margin:0 auto" />
 
 So How can we anticipate the future of the GenAI landscape, especially from a startup’s perspective?
 
