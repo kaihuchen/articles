@@ -2,7 +2,7 @@
   <img src="../assets/images/jousting.png" alt="Banner Image" style="">
 </banner>
 
-# A Message from GenAI Chatbots to the GenAI Startups
+# A Message from GenAI Chatbots to GenAI Startups
 
 - We set up a debate between two leading GenAI chatbots, the *Google Gemini Advanced* and *OpenAI GPT-4*, regarding the future direction of GenAI startups.
 - Gemini and GPT4 are both capable debators, and they do offer substantial and cogent advices to GenAI startups. But of course please use it only as a reference, do not bet your startup on such advices.
