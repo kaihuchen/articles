@@ -43,19 +43,16 @@ This debate proceeds as follows:
    - After both opinions are presented, each side engages in a thoughtful analysis.
    - They critically evaluate the strengths and weaknesses of each other’s viewpoints.
    - This involves identifying logical fallacies, assessing the quality of evidence, and questioning assumptions.
-
-<!-- 3. Nuanced Discussion: -->
-
    - Unlike traditional debates where one side wins and the other loses, constructive critique debates encourage nuanced discussion.
    - Participants explore shades of gray, acknowledge valid points from the opposing side, and seek common ground.
-
-<!-- 4. Audience Engagement:
-   - The audience plays an essential role by actively listening to both opinions.
-   - They can ask questions, seek clarification, and contribute to the depth of the debate. -->
-
 5. [**Resolution or Synthesis**](#resolution):
    - Instead of declaring a winner, the goal is to arrive at a deeper understanding of the topic.
    - Participants may synthesize elements from both opinions or propose a resolution that incorporates the best aspects of each side.
+
+<!-- 3. Nuanced Discussion: -->
+<!-- 4. Audience Engagement:
+   - The audience plays an essential role by actively listening to both opinions.
+   - They can ask questions, seek clarification, and contribute to the depth of the debate. -->
 
 <a name="presentation"></a>
 ## Round 1: Opinion Presentation
