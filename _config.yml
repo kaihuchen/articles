@@ -3,7 +3,7 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 title: khub.ai Articles
-description: A collection of articles on the research and application of Generative AI
+description: A collection of articles on the research and applications of Generative AI
 show_downloads: false
 #google_analytics: [Your Google Analytics tracking ID]
 
