@@ -1,5 +1,5 @@
 <banner class="page-header" role="banner">
-  <img src="assets/images/open_book2.webp" alt="Banner Image">
+  <img src="assets/images/books.png" alt="Banner Image">
 </banner>
 
 # List of Articles
