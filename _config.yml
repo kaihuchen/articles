@@ -2,9 +2,11 @@ remote_theme: pages-themes/modernist@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-title: <a href='..'>khub.ai Articles</a>
+title: <a href='/'>khub.ai Articles</a>
 description: A collection of articles on the research and applications of Generative AI
 show_downloads: false
+github_link: false
+
 #google_analytics: [Your Google Analytics tracking ID]
 
 #header_image: /assets/images/EnsembleAI.png
