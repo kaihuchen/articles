@@ -5,6 +5,8 @@ plugins:
 title: [Ensemble AI]
 description: [A khub.ai article on Ensemble AI]
 show_downloads: false
+github_link: false
+
 google_analytics: [Your Google Analytics tracking ID]
 
 header_image: /assets/images/EnsembleAI.png
