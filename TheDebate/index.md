@@ -3,7 +3,7 @@
 </banner>
 
 # A Message from GenAI Chatbots to GenAI Startups
-##### *Keep your friends close but your enemies closer - Michael Corleone*
+<!-- ##### *Keep your friends close but your enemies closer - Michael Corleone* -->
 
 - We organized a debate between two leading generative AI chatbots, *Google Gemini Advanced* and *OpenAI GPT-4*, focusing on the challenges generative AI startups face when competing with the GenAI giants, and suggesting optimal strategies for the future. 
 - Both Gemini and GPT-4 are capable debaters and provided insightful and actionable advice to GenAI startups. 
