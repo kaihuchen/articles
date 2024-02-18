@@ -64,6 +64,6 @@ The true power of Ensemble GenAI lies in its ability to:
 
 Developing Ensemble GenAI architectures requires careful consideration of data privacy, security, and ethical implications. However, the potential benefits for tackling complex, multifaceted, and dynamic problems make it a promising approach for advancing AI capabilities and solving real-world challenges.
 
-<!-- <banner class="page-header" role="banner">
-  <img src="../assets/images/beer.png" alt="Banner Image">
-</banner> -->
+<banner class="page-header" role="banner">
+  <img src="../assets/images/q3.webp" alt="Banner Image">
+</banner>
