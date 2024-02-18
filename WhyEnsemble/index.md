@@ -26,8 +26,8 @@ Note that the somewhat similar term **Ensemble AI** commonly refers to use of *m
 Why do we want to go into the trouble of developing the type of *Ensemble GenAI* as mentioned above? There are certain types of problems that could benefit from such an architecture:
 
 - Problems that require many specialized chatbots to work together.
-- Problems so critical that they require a panel of expert chatbot to decide jointly.
-- Problems that can benefit from collaborative discussion or constructive critiques among multiple chatbots.
+- Mission-critical decisions that require a panel of expert chatbots in order to achieve high level of confidence.
+- Open-ended problems that can benefit from collaborative discussion or constructive critiques among multiple chatbots.
 - Problems that requires human to work together with multiple chatbots. 
 - Problems where transparency of the solution process is important. 
 - A combination of the above.
