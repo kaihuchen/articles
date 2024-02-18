@@ -1,5 +1,5 @@
 <banner class="page-header" role="banner">
-  <img src="../assets/images/q2.webp" alt="Banner Image" style="">
+  <img src="../assets/images/q1.webp" alt="Banner Image" style="">
 </banner>
 
 # Why develop *Ensemble GenAI*?
