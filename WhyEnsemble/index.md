@@ -19,6 +19,8 @@ For the purpose of this discussion, we will focus on *Ensemble GenAI* with the f
 
 Are there any existing *Ensemble GenAI* systems? Well, sort of. OpenAI's plugins can be said to be a kind of *Ensemble GenAI* system, but while it offers an assortment of diverse chatbots, it is not heterougeous, not distributed, nor collaborative.
 
+Note that the somewhat similar term **Ensemble AI** commonly refers to use of *multiple machine learning models* in order to achieve better predictive performance, which is different from the *Ensemble GenAI* discussed here. In *Ensemble GenAI* the basic unit is a well-trained chatbot capable of communicating in natural language, while in *Ensemble AI* the basic unit is a machine learning model that infers based on symbolic or numerical inputs.
+
 ## Benefits
 
 Why do we want to go into the trouble of developing the type of *Ensemble GenAI* as mentioned above? There are certain types of problems that could benefit from such an architecture:
@@ -27,6 +29,7 @@ Why do we want to go into the trouble of developing the type of *Ensemble GenAI*
 - Problems so critical that they require a panel of expert chatbot to decide jointly.
 - Problems that can benefit from collaborative discussion or constructive critiques among multiple chatbots.
 - Problems that requires human to work together with multiple chatbots. 
+- Problems where transparency of the solution process is important. 
 - A combination of the above.
 
 ## Use Cases
