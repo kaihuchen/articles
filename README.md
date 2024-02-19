@@ -4,7 +4,7 @@
 
 # List of Articles
 
-- [Qualitative Financial Risk Assessment using Collective AI Judgement](Risks)：having multiple GenAI chatbots engage in a debate to derive a qualitative assessment of financial risk in regard to a certain given major event. \
+- [**Qualitative Financial Risk Assessment using Collective AI Judgement**](Risks)：having multiple GenAI chatbots engage in a debate to derive a qualitative assessment of financial risk in regard to a certain given major event. \
     *Published: Feb 18, 2024*
 - [**A Message from GenAI Chatbots to GenAI Startups**](TheDebate): find out how two leading GenAI chatbots debate about the future of GenAI startups. \
     *Published: Feb 15, 2024*

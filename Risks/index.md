@@ -120,11 +120,11 @@ I was curious to see what the chatbots could do, so I asked GPT-4 to make a quan
 
 Here's the model that was made, just for you to check out.
 
-**Prompt for GPT4**: Create a quantitative model for the synthesized opinion above, so that it is possible to make a quantitative prediction based on certain measurable input parameters.
+**Prompt**: Create a quantitative model for the synthesized opinion above, so that it is possible to make a quantitative prediction based on certain measurable input parameters.
 
 **GPT4**: Creating a quantitative model to assess the impact of a global pandemic on company stock prices requires the identification and quantification of relevant parameters that can influence the outcome. Here’s a simplified outline of how such a model could be structured:
 
-### Model Parameters:
+**Model Parameters**:
 
 1. **Financial Health (FH):**
    - Debt-to-Equity Ratio (DER)
@@ -150,7 +150,7 @@ Here's the model that was made, just for you to check out.
    - Government Support Index (GSI)
    - Access to Capital Index (ACI)
 
-### Model Formula:
+**Model Formula**:
 
 To predict the Pandemic Impact Score (PIS) on a company’s stock price:
 
@@ -161,7 +161,7 @@ Where:
 - Each parameter is a composite index calculated from sub-parameters, possibly on a scale of 0-1 or 0-100.
 - The final PIS can be on a scale of 0-10, with 10 being the most negative impact.
 
-### Quantitative Inputs:
+**Quantitative Inputs**:
 
 - **Financial Health:**
   - DER: Ratio of total liabilities to shareholders' equity.
@@ -187,7 +187,7 @@ Where:
   - GSI: A score based on the level and effectiveness of government financial support programs.
   - ACI: A measure of the company's ability to access additional capital, through markets or other means.
 
-### Implementation:
+**Implementation**:
 
 This model would require the collection of data for each parameter. Data sources could include financial statements, market research reports, government publications, and industry analyses. Each parameter would need to be normalized to ensure consistency across different scales.
 
