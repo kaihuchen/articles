@@ -16,7 +16,7 @@ The core assumptions of this study are as follows:
 
 ## Approach
 
-This case study focuses on utilizing a collective of diverse GenAI chatbots to engage in what's termed a constructive critique debate. The premise is that by pitting these chatbots against one another in debate, a more comprehensive and reliable consensus may emerge due to the cross-examination of different perspectives.
+This case study focuses on utilizing a collective of diverse GenAI chatbots to engage in what's termed a *constructive critique debate*. The premise is that by pitting these chatbots against one another in debate, a more comprehensive and reliable consensus may emerge due to the cross-examination of different perspectives.
 
 This methodology parallels a similar study, [A Message from GenAI Chatbots to GenAI Startups,](https://kaihuchen.github.io/articles/TheDebate/) which showcased a technique of leveraging two GenAI chatbots to formulate strategic advice for emerging GenAI startups. The intent is to help these startups navigate and thrive in a rapidly evolving environment characterized by large, well-established GenAI entities.
 
@@ -116,9 +116,9 @@ In conclusion, the critique is largely valid and presents a more comprehensive f
 
 ## Post-debate: Building a Quantitative Model for Prediction
 
-I was curious to see what the chatbots could do, so I asked GPT-4 to make a quantitative model from the debate. I'm not really in a position to say if the model is any good, and I'm a bit skeptical about whether it's useful as it stands. But since AI is getting better at programming pretty fast, I think it's worth looking into further.
+I was curious to see what the chatbots could do, so I asked GPT-4 to make a **predictive quantitative model** from the debate. I'm not really in a position to say if the model is any good, and I'm a bit skeptical about whether it's useful as it stands. But since AI is getting better at programming pretty fast, I think it's worth looking into further.
 
-Here's the model that was made, just for you to check out.
+Here's the model that was made, given here just for your enjoyment.
 
 **Prompt**: Create a quantitative model for the synthesized opinion above, so that it is possible to make a quantitative prediction based on certain measurable input parameters.
 

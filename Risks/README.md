@@ -4,7 +4,7 @@
   <img src="../assets/images/risk_assessment.webp" alt="Banner Image" style="">
 </banner>
 
-Article: [Qualitative Risk Assessment](https://kaihuchen.github.io/articles/Risks/) - exploring the future large-scale architecture of GenAI
+Article: [Qualitative Financial Risk Assessment using Collective AI Judgement](Risks) - explores the innovative application of the Ensemble GenAI framework within the financial sector
   - *DRAFT*
 
 
