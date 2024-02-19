@@ -4,6 +4,8 @@
 
 # Qualitative Financial Risk Assessment using Collective AI Judgement
 
+*Published: Feb 20, 2024*
+
 This case study explores the innovative application of the Ensemble GenAI framework within the financial sector.
 
 The core assumptions of this study are as follows:
