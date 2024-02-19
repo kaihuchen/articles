@@ -201,7 +201,7 @@ The PIS can be used to gauge the relative risk of a company's stock price to a g
 
 - Even though the ideas from the chatbots might already be known to financial pros, I think such a tool could still help by highlighting important points and making these experts' work easier.
 - This approach looks promising and it might be worth further pursue.
-
+- If you have any comments, please leave them on the [issues section here](https://github.com/kaihuchen/articles/issues).
 
 <banner class="page-header" role="banner">
   <img src="../assets/images/risk_assessment2.webp" alt="Banner Image">
