@@ -12,8 +12,8 @@ Aside from having humans as the ultimate judge of whether our welfare is being s
 
 There are several ways to ensure the quality of a GenAI chatbot:
 
-- Manual evaluation, e.g. by running benchmarks.
--  
+- Manual evaluation, e.g. by running benchmarks. Problem with this approach is that it is static, and can't catch problems as it is happening.
+- 
 
 ## What is *Ensemble GenAI*
 
