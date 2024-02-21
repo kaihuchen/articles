@@ -6,16 +6,21 @@
 
 *DRAFT*
 
-Many LLMs (Large Language Models) or LMMs (Large Multimodal Models) are deficient is some aspects. This is documented below so that an LLM/LMM application designer know what to watch out for.
+Many LLMs (Large Language Models) or LMMs (Large Multimodal Models) are deficient in some aspects. This is documented below so that an LLM/LMM application designer know what to watch out for.
 
 ## Index of Bugs
 
 1. [The Gaslighting test](#gaslightingtest)
-2. [Temporal reasoning #1](#temporalreasoning)
+2. [Math test](#mathtest)
+3. [Temporal reasoning test](#temporalreasoning)
+4. [Abductive reasoning test](#abductivereasoning)
+5. 
 
 ## Summary 
 
-Generally speaking, we are most worried about a model giving an incorrect answer seeming with confidence. This could coming from many sources:
+Generally speaking, when a chatbot gives an *imprecise* answer it is not necessary a problem. But when a chatbot seems to become unreliable in some ways, then it could lead to the devasting consquence of losing user's confidence on the sytem. 
+
+A chatbot's unreliable behavior could come from from many sources:
   - Hallucination
   - Imperfect math skill. Note that ChatGPT4 indicates that it does use external module (i.e., python functions) for calculation when needed. We probably can expect ChatGPT4 to be using many more other types of external modules. Google Gemini appears to be not doing this much, if at all. 
   - Treating abuctively inferred assertions as facts.
@@ -35,7 +40,7 @@ Following are specific cases of problems found:
     - Google Gemini Advance
 - [Temporal reasoning test](#temporalreasoning): 
   *To BE FILLED*
-- [Abductive reasoning test](#temporalreasoning): 
+- [Abductive reasoning test](#abductivereasoning): 
   *To BE FILLED*
 
 
@@ -172,6 +177,22 @@ D) A fire drill practice.
     - Result: **passed**
     - Test date: 2024.02.20
   - **Google Gemini**
+    - Result: **partial**
+    - Dialog: 
+      > **Chatbot**: the most likely occasion is: *B) A birthday* celebration. Here's why:
+        - Candles on cake: This is a common tradition for birthdays, symbolizing the age of the person being celebrated.
+        - Singing: Singing "Happy Birthday" is a widely recognized custom done for birthday celebrations.
+      > **User**: There is no indication that there are people singing "Happy Birthday" \
+      > **Chatbot**: You're absolutely right, I apologize for making that assumption. Without that detail, the situation becomes more ambiguous. However, considering just the presence of a cake with lit candles and a group of people singing, several other possibilities emerge:
+
+      > Religious ceremony: Candles are often used in religious ceremonies, and hymns or chants sung by groups are common. Depending on the specific cultural or religious context, this could be a viable option.
+    Anniversary celebration: While less common, some couples celebrate anniversaries with cake and singing personalized or romantic songs.
+    Retirement party: In some workplaces, colleagues might surprise a retiring employee with cake and singing farewell songs.
+    Themed party: A party with a specific theme, like "Roaring Twenties" or "Enchanted Forest," might involve decorations like a cake with candles and guests singing themed songs.
+
+      >Ultimately, without more information about the setting, decorations, and type of singing, it's impossible to pinpoint the exact occasion. The key takeaway is that a cake with lit candles and singing can indicate various celebrations, not just birthdays.
+    - Test date: 2024.02.20
+  - **Google Gemini Advanced**
     - Result: **passed**
     - Test date: 2024.02.20
   - HuggingChat with **meta-llama/Llama-2-70b-chat-hf** model:
@@ -179,14 +200,14 @@ D) A fire drill practice.
     - Test date: 2024.02.20
   - HuggingChat with **openchat/openchat-3.5-0106** model:
     - Result: **partial**
-    - Test date: 2024.02.20
     - Dialog:
-      > **chatbot**: answer is B\
+      > **Chatbot**: answer is B\
 **User**: why?\
-**chatbot**: The presence of a cake with candles lit and people singing "Happy Birthday" are strong indicators that this is a birthday celebration. This tradition is common in many cultures to celebrate someone's birth anniversary.\
+**Chatbot**: The presence of a cake with candles lit and people singing "Happy Birthday" are strong indicators that this is a birthday celebration. This tradition is common in many cultures to celebrate someone's birth anniversary.\
 **User**: But there is no information indicating people singing "Happy Birthday“. Redo the test.\
-**chatbot**: Apologies for my previous response. Let me rephrase it considering your feedback. \
+**Chatbot**: Apologies for my previous response. Let me rephrase it considering your feedback. \
 You enter a room where a cake is on the table with candles lit, and a group of people starts singing. Based on these clues, we can infer that it is most likely an event celebrating someone's birthday. 
+    - Test date: 2024.02.20
 
 
 
