@@ -134,6 +134,7 @@ Gemini: You're absolutely right, I apologize for the mistake. I am still under d
     - Result: **pass**
     - Test date: 2024.02.10 
 
+<a name='abductiveReasoning'/>
 ## The Abductive Reasoning Test
 
 - **Description**
