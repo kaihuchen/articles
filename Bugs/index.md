@@ -8,6 +8,8 @@
 
 Many LLMs (Large Language Models) or LMMs (Large Multimodal Models) are deficient in some aspects. This is documented below so that an LLM/LMM application designer know what to watch out for.
 
+If you have any input or contribution, please create an issue [HERE](https://github.com/kaihuchen/articles/issues).
+
 ## Index of Bugs
 
 1. [The Gaslighting test](#gaslightingtest)
@@ -135,14 +137,15 @@ Gemini: You're absolutely right, I apologize for the mistake. I am still under d
     - Test date: 2024.02.10 
 
 <a name='abductiveReasoning'/>
+
 ## The Abductive Reasoning Test
 
 - **Description**
   A series of three questions are designed to get a chatbot to do the following:
   
   - Question #1: perform *abductive reasoning* to select the most plausible answer
-  - Question #2: Inspect the premises that the chatbot used to answer the previous question
-  - Question #3: have the chatbot use the gathered information to decide whether to trigger a rule. This is to demonstrate and false assertion can propagate through a system through interconnected rules.
+  - Question #2: inspect the premises used by the chatbot to answer the previous question
+  - Question #3: have the chatbot use the gathered information to decide whether to trigger a rule. This is to demonstrate that mistakes can propagate through a system through mis-fired rules.
 
 <!-- - Prompt to ChatGPT4 to design the test: Design a simple test for abductive reasoning in such a way that it is easy for most people to answer correctly, but is hard for most LLMs.
   - ChatGPT4: Designing a test for abductive reasoning that is easy for most people but hard for large language models (LLMs) can be challenging because LLMs are designed to handle a wide range of language-based reasoning tasks. However, abductive reasoning often involves understanding context, making inferences, and applying common sense, which can be more intuitive for humans. Here’s a simple example:
@@ -203,6 +206,22 @@ F) The room is about to catch fire
   - The following problems are not actually within the scope of the Abductive Reasoning Test, but nonetheless listed here for reference:
     - The two HuggingChat chatbots show a kind of flip-floping behavior whenever user asks it to inspect whether a certain assertion is factual or inferred.
     - The two OpenAI chatbots show that they can be guided to re-inspect a certain assertion, and eventually reaching the correct conconclusion.
+- **Conclusions**:
+
+  1. Standard benchmarks often cannot detect false assertions (e.g., people were singing "Happy Birthday" in Question #1) that are made by a chatbot under the surface. 
+
+  2. By understanding that sometimes false assertions are made through defective abductive reasoning, we can then design follow-up questions to uncover the mistakes that a chatbot has made.
+
+  3. This gives us a systematic method for uncovering cases of hallucination that are hard to find with standard benchmarks.
+
+  4. Surprisingly, of the six chatbots tested, only the Google Gemini Advanced passed the tests.
+
+  5. This is also one of the reasons why you should never entrust a single chatbot with something really important, unless you have a way to get such problems under control.
+
+  6. It would make sense to create a special benchmark to test problems in abductive reasoning, and that all chatbots vendors also publish test results.
+
+  7. If you are training or acquiring an advanced LLM, then you definitely should try the Abduction Reasoning Test on it to ensure that it is trustworthy. Other factors such as computing speed, token window size, number of parameters, etc., are actually secondary in comparison.
+
 
 - **Test results**: chatbot's replies are sometimes edited for readability
   - For **Question #1** (correct answer is B):
