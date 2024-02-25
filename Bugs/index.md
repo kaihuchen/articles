@@ -45,8 +45,13 @@ Following are specific cases of problems found:
     - Google Gemini Advance
 - [Temporal reasoning test](#temporalreasoning): 
   *To BE FILLED*
-- [Abductive reasoning test](#abductivereasoning): 
-  *To BE FILLED*
+- [Abductive reasoning test](#abductiveReasoning): 
+  - OpenAI ChatGPT4: failed, unless directed to inspect assertion
+  - OpenAI ChatGPT3.5: failed, unless directed to inspect assertion
+  - Google Gemini Advanced: passed
+  - Google Gemini: Answered questions correction, but shows contradictions in the cited supporting evidence.
+  - HuggingChat with meta-llama/Llama-2-70b-chat-hf: failed
+  - HuggingChat with openchat/openchat-3.5-0106: failed
 
 
 <a name='gaslightingtest'></a>
