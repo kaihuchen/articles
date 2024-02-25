@@ -18,7 +18,7 @@ Many LLMs (Large Language Models) or LMMs (Large Multimodal Models) are deficien
 1. [The Gaslighting test](#gaslightingtest)
 2. [Math test](#mathtest)
 3. [Temporal reasoning test](#temporalreasoning)
-4. [Abductive reasoning test](#abductivereasoning)
+4. [Abductive reasoning test](#abductiveReasoning)
 5. 
 
 ## Summary 
