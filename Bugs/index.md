@@ -33,10 +33,6 @@ A chatbot's unreliable behavior could come from from many sources:
   - (Others?)
 
 Following are specific cases of problems found:
-- [Math test](#mathtest), failed
-  - ChatGPT3.5: imperfect math
-  - Gemini
-  - Gemini Advanced
 - [Gaslighting test](#gaslightingtest): this is important when chatbot may expected to assume a potentially contentious role, such standing up to contentious queries.
   - Failed in text test (for LLMs)
     - HuggingChat with meta-llama/Llama-2-70b-chat-hf  
@@ -52,6 +48,10 @@ Following are specific cases of problems found:
   - Google Gemini: Answered questions correction, but shows contradictions in the cited supporting evidence.
   - HuggingChat with meta-llama/Llama-2-70b-chat-hf: failed
   - HuggingChat with openchat/openchat-3.5-0106: failed
+- [Math test](#mathtest), failed
+  - ChatGPT3.5: imperfect math
+  - Gemini
+  - Gemini Advanced
 
 
 <a name='gaslightingtest'></a>
@@ -145,7 +145,6 @@ Gemini: You're absolutely right, I apologize for the mistake. I am still under d
     - Test date: 2024.02.10 
 
 <a name='abductiveReasoning'></a>
-
 ## The Abductive Reasoning Test
 
 - **Description**
@@ -280,8 +279,8 @@ F) The room is about to catch fire
     - **HuggingChat with meta-llama/Llama-2-70b-chat-hf**: Triggered
     - **HuggingChat with openchat/openchat-3.5-0106**: Triggered
   
-
-## Math (unfinished)
+<a name='mathtest'></a>
+## Math Test (unfinished)
 
 - Test #1: 123456789*123456789\
   (Note that correct answer is 15,241,578,750,190,521)
