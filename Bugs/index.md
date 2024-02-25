@@ -6,9 +6,12 @@
 
 *DRAFT*
 
+- *This is a working document that is constantly updated*
+- *Last updated: 2024.02.24*
+- *If you have any input or contribution, please create an issue [HERE](https://github.com/kaihuchen/articles/issues).*
+
 Many LLMs (Large Language Models) or LMMs (Large Multimodal Models) are deficient in some aspects. This is documented below so that an LLM/LMM application designer know what to watch out for.
 
-If you have any input or contribution, please create an issue [HERE](https://github.com/kaihuchen/articles/issues).
 
 ## Index of Bugs
 
@@ -136,7 +139,7 @@ Gemini: You're absolutely right, I apologize for the mistake. I am still under d
     - Result: **pass**
     - Test date: 2024.02.10 
 
-<a name='abductiveReasoning'/>
+<a name='abductiveReasoning'></a>
 
 ## The Abductive Reasoning Test
 
