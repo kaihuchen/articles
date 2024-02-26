@@ -4,6 +4,7 @@
 
 # List of Articles
 
+- [Wood and Buffett on NVDA](WoodvsBuffett): An emulated debate between Cathie Wood and Warren Buffett on NVDA, as imagined by GenAI chatbots. Also with business models as suggested by chatbots. 
 - [**Hallucination due to flawed Abductive Reasoning**](Bugs/#abductiveReasoning): My experiments show that most chatbots built from LLMs (Large Language Models) struggle with abductive reasoning, which often leading to incorrect or "hallucinated" responses that aren't easy to spot. 
 - [**Qualitative Financial Risk Assessment using Collective AI Judgement**](Risks)：having multiple GenAI chatbots engage in a debate to derive a qualitative assessment of financial risk in regard to a certain given major event. \
     *Published: Feb 18, 2024*
