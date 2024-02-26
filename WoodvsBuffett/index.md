@@ -9,17 +9,15 @@
 
 What might we learn from an emulated debate between the renouned investors Cathie Wood and Warren Buffett, as imagined by chatbots?
 
-This is of course mostly for fun, since the emulation could be entire off with little resemblance to the opinions of the real Wood & Buffett. On the serious side, we hope that this exercise might point to some interesting future directions:
+This is of course mostly for fun, since the emulation could be entire off with little resemblance to the opinions of the real Wood & Buffett. 
 
-- How the Ensemble GenAI architecture might lead to superior results. Related articles to this exploratory studies can be found here:
+This is an exercise of an Ensemble GenAI architecture, which has been explored in the following articles:
   - [**Qualitative Financial Risk Assessment using Collective AI Judgement**](Risks)：having multiple GenAI chatbots engage in a debate to derive a qualitative assessment of financial risk in regard to a certain given major event. \
     *Published: Feb 18, 2024*
   - [**A Message from GenAI Chatbots to GenAI Startups**](TheDebate): find out how two leading GenAI chatbots debate about the future of GenAI startups. \
     *Published: Feb 15, 2024*
 
-A hypothetical debate between virtual versions of famed investors (e.g., Warren Buffet and Charlie Munger, or Cathie Wood and Michael Burry) certainly would be highly entertaining for finance enthusiasts!
-
-We might also reap some serious insights from such a virtual investor debate:
+Aside from the entertaining value for finance enthusiasts, we might also reap some serious insights from such a virtual investor debate:
 
   - Uncover Nuances: A debate forces each "virtual investor" to articulate the strengths and weaknesses of specific investment choices. This goes beyond just stating a bullish or bearish stance, leading to a deeper understanding of different investment perspectives.
   - Expose Biases: Even legendary investors have blind spots. A debate between their virtual counterparts could reveal these subtle biases, making us more aware of the potential pitfalls in different approaches.
