@@ -4,7 +4,8 @@
 
 # An Emulated Debate between Wood and Buffett on NVDA
 
-*DRAFT*
+- *Published: 2024.02.26*
+- *For comments*: https://github.com/kaihuchen/articles/issues
 
 What might we learn from an emulated debate between the renouned investors Cathie Wood and Warren Buffett, as imagined by chatbots?
 
