@@ -26,3 +26,12 @@
 
 - [**Hallucination due to flawed Abductive Reasoning**](Bugs/#abductiveReasoning): My experiments show that most chatbots built from LLMs (Large Language Models) struggle with abductive reasoning, which often leading to incorrect or "hallucinated" responses that aren't easy to spot. \
     *Published: Feb 24, 2024*
+
+# Source Code Repositories
+
+- **Ensemble GenAI**\
+*Not yet published*
+
+# For Comments or Issues
+
+We welcome your comments or issue reports here: https://github.com/kaihuchen/articles/issues
