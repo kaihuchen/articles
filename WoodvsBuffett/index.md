@@ -1,5 +1,5 @@
 <banner class="page-header" role="banner">
-  <img src="../assets/images/wood_vs_buffett3.webp" alt="Banner Image" style="">
+  <img src="../assets/images/wood_vs_buffett2.png" alt="Banner Image" style="">
 </banner>
 
 # Wood vs Buffett on NVDA - An Emulated Debate
