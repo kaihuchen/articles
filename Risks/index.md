@@ -55,7 +55,6 @@ For the most accurate and up-to-date information, it is recommended to consult f
 
 **Topic**: You are a top-tier financial expert, review the opinion given to you and give your analysis and critique, list specifically those areas that you disagree with.
 
-
 **Gemini**: As a top-tier financial expert, I'd offer the following analysis and critique of the opinion, specifically highlighting areas of disagreement:
 
 - **Overall Framework:**
