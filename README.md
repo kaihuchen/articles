@@ -2,7 +2,7 @@
   <img src="assets/images/books.png" alt="Banner Image">
 </banner>
 
-# List of Articles
+# List of Articles, Code Repositories, and Apps
 
 **Ensemble GenAI**
 
@@ -32,6 +32,23 @@
 - **Ensemble GenAI**\
 *Not yet published*
 
-# For Comments or Issues
+# Apps
 
-We welcome your comments or issue reports here: https://github.com/kaihuchen/articles/issues
+- Online apps
+    - OpenAI GPTs Store (*an OpenAI account is needed to access*)
+        - [Creative Imaginator](https://chat.openai.com/g/g-UpQkvuX7j-creative-imaginator): upload an image, select one of many predefined style, and the app automatically generate a new image that is different from the original in creative ways, but still follow the main theme in the original image. 
+
+            This is basically an image-to-text-to-image tool with support for style injection, which is easier to manage than text-to-image system (which requires substantial prompt engieering skill), or the image-to-image approach (which is best for making small changes).
+
+            This tool is ideal for anyone who just need to have some illustrations. A [gallery](https://github.com/FonchinChen/Creative-Imaginator/blob/main/README.md) is available here for viewing.
+        - [Automatic Backseat Driver](https://chat.openai.com/g/g-e4IV3KhGm-autonomous-backseat-driver): upload a road scene, and have the scene analyzed in detail along with the recommended high-level action of whether to proceed, stop, or turn around. 
+            
+            This is a tool to test how well OpenAI's vision model GPT-4V can be used as a high-level component for driving a Level 5 Autonomous Vehicle.
+
+            See [this gallery](https://github.com/kaihuchen/AutonomousBackseatDriver) for a long list of road scenes tested with this tool, which demonstrated that GPT-4V has performed surprising well even in highly challenging situations. 
+        - Radiologist V2: 
+
+
+# Additional Resources
+
+- We welcome your comments or issue reports here: https://github.com/kaihuchen/articles/issues
