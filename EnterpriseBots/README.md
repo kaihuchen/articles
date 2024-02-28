@@ -5,6 +5,6 @@
 </banner>
 
 Article: [Building Enterprise GenAI Chatbots](https://kaihuchen.github.io/articles/EnterpriseBots/) - important things to watch out for when building Enterprise GenAI Chatbots
-  - *DRAFT*
+
 
 

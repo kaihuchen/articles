@@ -6,7 +6,8 @@
 
 **Ensemble GenAI**
 
-<div style=“float: left”> !Image description </div>
+<!-- <div style=“float: left”> !Image description </div> -->
+
 - [**Wood vs Buffett on NVDA**](WoodvsBuffett): An emulated debate between Cathie Wood and Warren Buffett on NVDA, as imagined by GenAI chatbots. Also with business models as suggested by chatbots. \
     *Published: Feb 26, 2024*
 - [**Qualitative Financial Risk Assessment using Collective AI Judgement**](Risks)：having multiple GenAI chatbots engage in a debate to derive a qualitative assessment of financial risk in regard to a certain given major event. \
@@ -15,6 +16,11 @@
     *Published: Feb 15, 2024*
 - [Ensemble AI](EnsembleAI):（draft) making many heterogeneous chatbots work together, distributed, at global scale.\
 *Unpublished*
+
+**GenAI for the Enterprise**
+
+- [**Building Enterprise GenAI Chatbots**](EnterpriseBots): It is important to recognize that enterprise GenAI chatbots are essentially the latest iteration of traditional enterprise software applications. As such, many of the same challenges faced during their development cycles should not be overlooked or underestimated. \
+    *Published: Feb 27, 2024*
 
 **GenAI Vision Applications**
 
