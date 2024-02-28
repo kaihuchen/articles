@@ -8,7 +8,7 @@
 
 The integration of Generative AI (GenAI) chatbots into enterprise environments marks a significant evolution from traditional enterprise software systems. These AI-driven platforms and conventional software tools differ fundamentally in their design, capabilities, and applications but also share certain foundational aspects related to their enterprise use. 
 
-However, it's important to recognize that these *enterprise chatbots* are essentially the latest iteration of *enterprise software applications*. As such, many of the same challenges faced during their development cycles should not be overlooked or underestimated.
+It is important to recognize that these *enterprise chatbots* are essentially the latest iteration of *enterprise software applications*. As such, many of the same challenges faced during their development cycles should not be overlooked or underestimated.
 
 
 ## Developmental Challenges
@@ -90,7 +90,9 @@ The list below outlines common challenges encountered in developing any type of 
 
 ## Additional Resources
 
-- About *expert GenAI chatbots*: it is not uncommon that the an enterprise may wish to implement a type of GenAI chatbots that posses in-depth knowledge of a certain field, and are capable of solving complex problems, i.e., *expert chatbots*. We will cover issues about *expert chatbots* in another article.
+- (Upcoming)) *Expert GenAI chatbots*: it is not uncommon that the an enterprise may wish to implement a type of GenAI chatbots that posses in-depth knowledge of a certain field, and are capable of solving complex problems, i.e., *expert chatbots*. We will cover issues about *expert chatbots* in another article.
+- (Upcoming) *Ensemble GenAI*: we probably should never let one singular chatbot, no matter how advanced it seems, to make really important decisions for us. *Ensemble GenAI* is an architecture that allow multiple chatbots to work together either collaboratively, or in a constructive competitive manner, in order to work for us in a safer manner. 
+- We welcome your comments or issue reports here: https://github.com/kaihuchen/articles/issues
 
 
 
