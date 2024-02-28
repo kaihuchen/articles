@@ -20,7 +20,7 @@ Human common sense related to vision encompasses intuitive knowledge about how t
 7. **Facial Recognition**: The ability to identify and distinguish between different faces, often automatically and from a very young age.
 8. **Emotion through Facial Expression**: Understanding that facial expressions convey emotions and intentions.
 9. **Continuity of Movement**: Expecting movement to be smooth and continuous and using this to predict future positions of moving objects.
-10. [**Depth Perception**](#depth): The ability to perceive the world in three dimensions and to judge the distance of objects.
+10. [*Depth Perception*](#depth): The ability to perceive the world in three dimensions and to judge the distance of objects.
 11. **Natural Affordances**: Intuiting the use of objects based on their shape and size (e.g., understanding that a chair is for sitting).
 12. **Causality in Vision**: Understanding that certain visual events cause others, such as an object being pushed and then moving.
 13. **Biological Motion Recognition**: The ability to recognize the movement patterns of living beings as distinct from inanimate objects.
