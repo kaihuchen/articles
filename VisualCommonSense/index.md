@@ -42,9 +42,9 @@ For example, supposed that we want a model to figure out the depth information f
 
 If we prompt the GPT-4V model as follows:
 
-> there are two persons in the image. Tell me which person is further away than the other?
+> There are two persons in the image. Tell me which person is further away than the other?
 
-then we get a generalized answer that does not answer the question directly.
+Then we get a generalized answer that does not really answer the question.
 
 > I can't view images directly in my current environment. However, if you have an illustration or a photograph with two individuals, the person who appears smaller or whose body parts (like the head or torso) are partially obscured by the other person is generally perceived to be further away. In typical side-by-side portraits, the person who is more in the background or has less of their body visible in the frame is usually the one who is further away.
 
@@ -52,7 +52,7 @@ However, if we prompt the model as follows:
 
 > describe this image, and figure out of the two persons in the image which one is closer and which is further away
 
-then we got a good answer:
+then we get a good answer:
 
 > The image is an illustration of two people. On the left, there is an elderly man, likely in his senior years, dressed in a suit with a tie, and wearing glasses. He appears to be gesturing with his hand over his heart, which might indicate sincerity or making a point. On the right, there is a younger woman with dark hair, wearing glasses, and a black garment with what seems to be a pattern of letters or symbols. She has her index finger raised, which often suggests she's making a point or indicating she has something to say.
 >    
@@ -62,8 +62,50 @@ then we got a good answer:
 
 ## Experiments
 
+<a name='mirror'></a>
+
+  3. **Reflections and Mirrors**
+  
+      Given the following image:
+
+      <img src="../assets/images/agi/mirror.jpg" style="width:70%">
+
+      Prompt #1: Describe every person in this image
+
+      Response #1: In this black and white image, there appears to be only one woman. She is facing away from the camera, leaning on what seems to be a counter or a bar, with her arms outstretched and resting on the surface. Her reflection is visible in a large mirror in front of her, which allows us to see she has a short, wavy hairstyle typical of the early to mid-20th century, and is wearing a sleeveless dress with a fur shawl or boa draped over her shoulders. Her expression is not clearly discernible, but she appears to be looking slightly to her left side in the reflection. The setting suggests a luxurious interior, possibly from a bygone era, evoking a sense of vintage glamor.
+
+      **Verdict: passed**
+
+<a name='light_and_shadows'></a>
+
+  3. **Light Source and Shadows**
+
+  
+      Given the following image:
+
+      <img src="../assets/images/agi/sphere_and_shadow.png" style="width:70%">
+
+      Prompt #1:
+
+      > Describe this image
+
+      Response #1: The image features a spherical object centrally placed under a focused light source that casts a soft shadow on a plain surface. The sphere has a glossy texture (long text ommited)...
+
+      Prompt #2:
+
+      > If I move the sphere to the left, then what would happen to the shadow?
+
+      Response #2: If the sphere is moved to the left while the light source remains stationary, the shadow would also move to the left correspondingly. The position of the shadow is directly related to the position of the sphere in relation to the light source. The shadow's shape might also change slightly depending on the angle of the light and the new position of the sphere, but it would still be cast away from the light source. The highlight on the sphere that is closest to the light source would shift according to the sphere's new position relative to the light.
+
+      **Verdict: passed**
+
+<!-- The image features a spherical object centrally placed under a focused light source that casts a soft shadow on a plain surface. The sphere has a glossy texture, suggestive of a material like ceramic or glass. It is adorned with a pattern of intertwined lines in bold colors: red, blue, and yellow, separated by thin white borders, creating a labyrinthine design that covers its entire surface. The play of light creates a bright highlight on the top left side of the sphere, where the light is most intense, and this light reflects onto the surface, creating a halo effect around the shadow. The background and surface on which the sphere rests are neutral and lack any distinctive features, putting the entire focus on the sphere itself. The setting evokes a serene, almost meditative quality, with the sphere's design drawing the eye in a contemplative manner. The colors are vibrant against the muted background, and the lighting gives the object a three-dimensional feel. -->
+
 <a name='depth'></a>
-- **Depth Perception**
+        
+  10. **Depth Perception**
+
+      <img src="../assets/images/agi/wood_vs_buffett1.webp" style="width:70%">
 
 ## Conclusions
 
