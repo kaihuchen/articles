@@ -28,6 +28,7 @@
     *Published: Feb 2024*
 - [LMM for a Home GuandianBot](https://github.com/kaihuchen/GuardianBot/blob/main/README.md): (draft) testing out the potential of using LMM (Large Multimodal Models) under the scenario of a home robot for detecting any hazards or threats, taking actions or escalating alerts as appropriate.\
 *Unpublished*
+- (Upcoming) Is OpenAI's GPT-4V vision model sufficient to support AGI?
 
 **Hidden Problems in GenAI**
 

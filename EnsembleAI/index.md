@@ -1,5 +1,5 @@
 <banner class="page-header" role="banner">
-  <img src="../assets/images/EnsembleAI.png" alt="Banner Image" style="">
+  <img src="../assets/images/ensemble_genai.webp" alt="Banner Image" style="">
 </banner>
 
 *DRAFT*

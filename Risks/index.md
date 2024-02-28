@@ -1,5 +1,5 @@
 <banner class="page-header" role="banner">
-  <img src="../assets/images/risk_assessment.webp" alt="Banner Image" style="">
+  <img src="../assets/images/risk_assessment.png" alt="Banner Image" style="">
 </banner>
 
 # Qualitative Financial Risk Assessment using Collective AI Judgement

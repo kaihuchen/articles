@@ -90,9 +90,10 @@ The list below outlines common challenges encountered in developing any type of 
 
 ## Additional Resources
 
-- (Upcoming)) *Expert GenAI chatbots*: it is not uncommon that the an enterprise may wish to implement a type of GenAI chatbots that posses in-depth knowledge of a certain field, and are capable of solving complex problems, i.e., *expert chatbots*. We will cover issues about *expert chatbots* in another article.
-- (Upcoming) *Ensemble GenAI*: we probably should never let one singular chatbot, no matter how advanced it seems, to make really important decisions for us. *Ensemble GenAI* is an architecture that allow multiple chatbots to work together either collaboratively, or in a constructive competitive manner, in order to work for us in a safer manner. 
-- We welcome your comments or issue reports here: https://github.com/kaihuchen/articles/issues
+- (Upcoming)) **Expert GenAI chatbots**: it is not uncommon that the an enterprise may wish to implement a type of GenAI chatbots that posses in-depth knowledge of a certain field, and are capable of solving complex problems, i.e., *expert chatbots*. We will cover issues about *expert chatbots* in another article.
+- (Upcoming) **Ensemble GenAI**: we probably should never let one singular chatbot, no matter how advanced it seems, to make really important decisions for us. *Ensemble GenAI* is an architecture that allow multiple chatbots to work together either collaboratively, or in a constructive competitive manner, in order to work for us in a safer manner. 
+- (Upcoming) **Virus for chatbots**? It may be hard to believe, but it is coming, and we need to get ready for it.
+- We welcome your [comments or issue reports here](https://github.com/kaihuchen/articles/issues)
 
 
 
