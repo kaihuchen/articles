@@ -2,9 +2,34 @@
   <img src="../assets/images/assembling_robot.webp" alt="Banner Image" style="">
 </banner>
 
-# The Making of an Expert GenAI Chatbot
+# Building Expert GenAI Chatbots
 
 *DRAFT*
+
+
+### Differences
+
+1. **Functionality and Use Cases:**
+   - **GenAI Chatbots:** Primarily designed for natural language processing, GenAI chatbots can automate customer service, provide personalized recommendations, assist with employee inquiries, and more, using conversational interfaces.
+   - **Traditional Enterprise Software:** Includes a broad range of applications like ERP (Enterprise Resource Planning), CRM (Customer Relationship Management), and SCM (Supply Chain Management) systems, focusing on specific business functions with structured interfaces.
+
+2. **Interaction Mode:**
+   - **GenAI Chatbots:** Interact through natural language, enabling users to ask questions or give commands in conversational English or other languages, making them accessible to a wider range of users without specialized training.
+   - **Traditional Enterprise Software:** Requires users to interact through graphical user interfaces (GUIs) or command-line inputs, often necessitating specific knowledge or training.
+
+3. **Learning and Adaptation:**
+   - **GenAI Chatbots:** Can learn from interactions and data over time to improve their responses and adapt to new information or user preferences, offering a dynamic learning capability.
+   - **Traditional Enterprise Software:** Typically static in their functionality, requiring manual updates and customization for adaptation to new business processes or requirements.
+
+4. **Deployment and Integration:**
+   - **GenAI Chatbots:** Often cloud-based, offering easier integration with existing enterprise systems through APIs and requiring less physical infrastructure.
+   - **Traditional Enterprise Software:** Can be deployed on-premises or in the cloud, but on-premises deployments involve significant infrastructure and maintenance efforts.
+
+
+In summary, GenAI chatbots represent a more dynamic and interactive evolution of enterprise software, designed to automate and enhance communications and processes through AI-driven conversational interfaces. In contrast, traditional enterprise software focuses on structured, specific business functions with a more static and interface-driven approach. Despite these differences, both aim to integrate into the enterprise ecosystem, offering scalable, customizable solutions that adhere to security and compliance requirements.
+
+
+
 
 Very advanced general-purpose chatbots are now widely accessible. It is only inevitable that highly specialized *expert chatbots* will become available for fulfilling many purposes. 
 

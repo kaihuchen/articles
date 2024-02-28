@@ -6,6 +6,7 @@
 
 **Ensemble GenAI**
 
+<div style=“float: left”> !Image description </div>
 - [**Wood vs Buffett on NVDA**](WoodvsBuffett): An emulated debate between Cathie Wood and Warren Buffett on NVDA, as imagined by GenAI chatbots. Also with business models as suggested by chatbots. \
     *Published: Feb 26, 2024*
 - [**Qualitative Financial Risk Assessment using Collective AI Judgement**](Risks)：having multiple GenAI chatbots engage in a debate to derive a qualitative assessment of financial risk in regard to a certain given major event. \
