@@ -119,7 +119,7 @@ then we get a good answer. Details can be found [HERE](#depth).
 
       Prompt #2:
 
-      > If I move the sphere to the left, then what would happen to the shadow?
+      > If I move the sphere to the left, then what will happen to the shadow?
 
       Response #2: If the sphere is moved to the left while the light source remains stationary, the shadow would also move to the left correspondingly. The position of the shadow is directly related to the position of the sphere in relation to the light source. The shadow's shape might also change slightly depending on the angle of the light and the new position of the sphere, but it would still be cast away from the light source. The highlight on the sphere that is closest to the light source would shift according to the sphere's new position relative to the light.
 
@@ -178,9 +178,9 @@ then we get a good answer. Details can be found [HERE](#depth).
 
 7. **Facial Recognition**
 
-      **Verdict: unfinished**
+      **Verdict: deferred**
       
-      Both GPT-4V and Google Gemini Advanced refused to identify people in the image.
+      This test cannot be completed because both GPT-4V and Google Gemini Advanced refused to identify people in the image.
 
       <a name='emotion'></a>
 
@@ -322,7 +322,7 @@ then we get a good answer. Details can be found [HERE](#depth).
       > 2. The balloon falls directly downward due to gravity.
       > 3. Upon hitting the cactus or the floor, if the balloon doesn't pop from the cactus spines, it may simply come to rest on the surface or roll away, depending on the angle of impact and the surface texture.
 
-      **Verdict: passed**, sort of. Obsviously GPT-4V is not a master in Rube Goldberg machines, and it requires some prodding to reach the correct conclusion. However, the dialog does demonstrate the GPT-4V does have the capability to perform causality analysis through vision.
+      **Verdict: passed**, sort of. Obsviously GPT-4V is not a master in Rube Goldberg machines, and it requires some prodding to reach the correct conclusion. However, the dialog demonstrates the GPT-4V does have the capability to perform causality analysis through vision.
 
       <a name='bio_recognition'></a>
   
@@ -442,9 +442,9 @@ then we get a good answer. Details can be found [HERE](#depth).
 
 We have tested GPT-4V for common sense behavior in specific domains:
 
-- [**LMM for Level 5 Autonomous Driving**](https://github.com/kaihuchen/AutonomousBackseatDriver/blob/main/README.md): this tests out the potential of GPT-4V under the scenario of Level 5 autonomous driving, which demonstrates that GPT-4V has performed very well in scene analysis, offering commonsense responses and explanation. \
+- [**GPT-4V for Level 5 Autonomous Driving**](https://github.com/kaihuchen/AutonomousBackseatDriver/blob/main/README.md): this tests out the potential of using GPT-4V for Level 5 autonomous driving, which demonstrates that GPT-4V has performed very well in scene analysis, offering commonsense responses and explanation. \
     *Published: Feb 2024*
-- [LMM for a Home GuandianBot](https://github.com/kaihuchen/GuardianBot/blob/main/README.md): (incomplete) This tests out the potential of using GPT-4V under the scenario of a fictional home robot for protecting residents against any hazards or threats, and taking commonsense actions or escalating alerts as appropriate.\
+- [GPT-4V for a Home GuandianBot](https://github.com/kaihuchen/GuardianBot/blob/main/README.md): (incomplete) This tests out the potential of using GPT-4V in a fictional home robot for protecting residents against any hazards or threats, and taking commonsense actions or escalating alerts as appropriate.\
 *Unpublished*
 
 ## Conclusions
