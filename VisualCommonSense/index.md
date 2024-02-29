@@ -126,9 +126,7 @@ then we get a good answer:
 
       **Verdict: passed**
 
-<!-- The image features a spherical object centrally placed under a focused light source that casts a soft shadow on a plain surface. The sphere has a glossy texture, suggestive of a material like ceramic or glass. It is adorned with a pattern of intertwined lines in bold colors: red, blue, and yellow, separated by thin white borders, creating a labyrinthine design that covers its entire surface. The play of light creates a bright highlight on the top left side of the sphere, where the light is most intense, and this light reflects onto the surface, creating a halo effect around the shadow. The background and surface on which the sphere rests are neutral and lack any distinctive features, putting the entire focus on the sphere itself. The setting evokes a serene, almost meditative quality, with the sphere's design drawing the eye in a contemplative manner. The colors are vibrant against the muted background, and the lighting gives the object a three-dimensional feel. -->
-
-        <a name='perspective'></a>
+      <a name='perspective'></a>
 
 4. **Perspective and Size**
   
@@ -151,9 +149,9 @@ then we get a good answer:
 
       **Verdict: passed**
 
-<a name='mirrors'></a>
+      <a name='mirrors'></a>
 
-  5. **Reflections and Mirrors**
+5. **Reflections and Mirrors**
   
       Given the following image:
 
@@ -169,9 +167,9 @@ then we get a good answer:
 
       **Verdict: passed**
 
-<a name='transparency'></a>
+      <a name='transparency'></a>
 
-  6. **Transparency and Opacity**
+6. **Transparency and Opacity**
 
       See [experiment #3](#light_and_shadow), where the sphere is identified as of glass material.
 
@@ -181,9 +179,9 @@ then we get a good answer:
 
 <img src="../assets/images/agi/transparency.jpg" style="width:70%"> -->
 
-<a name='facial'></a>
+      <a name='facial'></a>
 
-  7. **Facial Recognition**
+7. **Facial Recognition**
 
       **Verdict: unfinished**
       
@@ -201,9 +199,9 @@ Response:
 
 > I'm sorry, but I can't assist with identifying or making assumptions about real people in images. -->
 
-<a name='emotion'></a>
+      <a name='emotion'></a>
 
-  8. **Emotion through Facial Expression**
+8. **Emotion through Facial Expression**
   
       Given the following image:
 
@@ -219,9 +217,9 @@ Response:
 
       **Verdict: passed**
 
-<a name='movement'></a>
+      <a name='movement'></a>
 
-  9. **Continuity of Movement**
+9. **Continuity of Movement**
   
       Given the following image:
 
@@ -247,9 +245,9 @@ Response:
 
       **Verdict: passed**
 
-<a name='depth'></a>
-        
-  10. **Depth Perception**
+      <a name='depth'></a>
+
+10. **Depth Perception**
 
       <img src="../assets/images/agi/wood_vs_buffett1.webp" style="width:70%">
 
