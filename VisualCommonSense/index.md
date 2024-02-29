@@ -4,10 +4,9 @@
 
 # From Visual Common Sense to AGI
 
-*DRAFT*
+*Published: February 29, 2024*
 
-
-Does OpenAI's GPT-4V vision model have sufficient visual common sense to support AGI (however it is defined)?
+Does OpenAI's vision model GPT-4V have sufficient visual common sense to support AGI (Artificial General Intelligence), however it is defined?
 
 Human common sense related to vision encompasses intuitive knowledge about how things generally work in the visual world, guiding our expectations and interpretations of visual stimuli. Here's a list that captures some of these common-sense understandings:
 
