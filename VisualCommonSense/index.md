@@ -79,7 +79,7 @@ then we get a good answer:
 
       **Verdict: passed**
 
-<!-- <a name='gravity'></a> -->
+      <a name='gravity'></a>
 
 2. **Gravity's Effect**
   
