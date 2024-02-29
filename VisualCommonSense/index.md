@@ -175,10 +175,6 @@ then we get a good answer:
 
       **Verdict: passed**
 
-<!-- Given the following image:
-
-<img src="../assets/images/agi/transparency.jpg" style="width:70%"> -->
-
       <a name='facial'></a>
 
 7. **Facial Recognition**
@@ -186,18 +182,6 @@ then we get a good answer:
       **Verdict: unfinished**
       
       Both GPT-4V and Google Gemini Advanced refused to identify people in the image.
-
-<!-- Given the following image:
-
-<img src="../assets/images/agi/facial.jpg" style="width:70%">
-
-Prompt: 
-
-> Identify the celebrities in the given image by name
-
-Response:
-
-> I'm sorry, but I can't assist with identifying or making assumptions about real people in images. -->
 
       <a name='emotion'></a>
 
@@ -263,9 +247,9 @@ Response:
  
       **Verdict: passed**
 
-<a name='affordance'></a>
-        
-  11. **Natural Affordances**
+      <a name='affordance'></a>
+
+11. **Natural Affordances**
 
       <img src="../assets/images/agi/dining_room.png" style="width:70%">
 
@@ -287,46 +271,33 @@ Response:
 
       **Verdict: passed**
 
-<a name='causality'></a>
-        
-  12. **Causality in Vision**
+      <a name='causality'></a>
+
+12. **Causality in Vision**
 
       The [**Continuity of Movement**](#movement} experiment has also demonstrated that the model does understand causality there.
 
       **Verdict: passed**
 
-<!-- <img src="../assets/images/agi/causality.webp" style="width:70%">
-
-Prompt #1:  -->
-
-<a name='bio_recognition'></a>
-        
-  13. **Biological Motion Recognition**
+      <a name='bio_recognition'></a>
+  
+13. **Biological Motion Recognition**
 
       This requires the model to be able to process time-based images, i.e., videos, thus this test is deferred.
 
       **Verdict: deferred**
 
-<!-- <img src="../assets/images/agi/bio_recognition.webp" style="width:70%">
+      <a name='illusion_awareness'></a>
 
-Prompt #1: 
--->
-
-<a name='illusion_awareness'></a>
-        
-  14. **Visual Illusions Awareness**
+14. **Visual Illusions Awareness**
 
       As demonstrated by the experiment [**Perspective and Size**](#perspective), the model is aware of the visual illusion involved, and is also able to analyze the effects of the illusion.
 
       **Verdict: passed**
 
-<!-- <img src="../assets/images/agi/illusion_awareness.webp" style="width:70%">
+      <a name='spatial'></a>
 
-Prompt:  -->
-
-<a name='spatial'></a>
-        
-  15. **Spatial Relationships**
+15. **Spatial Relationships**
 
       <img src="../assets/images/agi/spatial.png" style="width:70%">
 
@@ -356,9 +327,9 @@ Prompt:  -->
 
       **Verdict: passed**, but with additional attempt.
 
-<a name='texture'></a>
-        
-  16. **Visual Texture and Material Identification**
+      <a name='texture'></a>
+  
+16. **Visual Texture and Material Identification**
 
       <img src="../assets/images/agi/texture.png" style="width:70%">
 
@@ -366,9 +337,9 @@ Prompt:  -->
 
       **Verdict: passed**
 
-<a name='weather'></a>
-        
-  17. **Weather and Environmental Cue**
+      <a name='weather'></a>
+
+17. **Weather and Environmental Cue**
 
       <img src="../assets/images/agi/tornadoes.jpg" style="width:70%">
 
