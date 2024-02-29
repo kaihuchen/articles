@@ -274,9 +274,55 @@ then we get a good answer:
 
 12. **Causality in Vision**
 
-      The [**Continuity of Movement**](#movement} experiment has also demonstrated that the model does understand causality there.
+      <img src="../assets/images/agi/goldberg_machine.png" style="width:70%">
 
-      **Verdict: passed**
+      Prompt #1: 
+      
+      > The given image is a Rube Goldberg Machine. Explain how this machine works.
+
+      Response #1:
+
+      > In this image, if we were to imagine it as a Rube Goldberg machine, the sequence could go as follows:
+      >
+      > 1. The candle is lit, representing the initial energy or trigger.
+      > 2. If the balloon were to drift or be pulled towards the lit candle, the heat from the flame could cause the balloon to pop.
+      > 3. The popping of the balloon could be the final action, or it could, in theory, trigger another event, such as startling the cactus (though in reality, the cactus would not react).
+
+      Prompt #2:
+
+      > Assuming that the balloon does not drift, give me another explanation
+
+      Response #2:
+
+      > If the balloon remains stationary and doesn't drift towards the flame, another Rube Goldberg-like explanation might involve the heat from the candle causing the air inside the balloon to expand. However, in a realistic scenario, the distance between the candle and the balloon seems too great for the heat to have any effect, assuming the balloon is not filled with a highly reactive gas and that standard physics apply.
+
+      Prompt #3:
+      
+      > What if the candle burn through the string, then what could happen next?
+
+      Response #3:
+
+      > If the string were to be positioned close enough for the candle's flame to burn through it, here is a potential sequence of events in a Rube Goldberg machine context:
+
+      > 1. The candle burns steadily until the flame comes into contact with the string holding the balloon.
+      > 2. The heat from the candle flame eventually burns through the string.
+      > 3. Once the string is severed, the balloon is released and begins to float upward or drift away, depending on the surrounding air currents and the inflation gas.
+      > 4. If the balloon is filled with helium or another lighter-than-air gas, it would ascend. If it's simply air-filled, it may just drop to the ground.
+      > 5. The movement of the balloon, whether ascending or falling, could trigger another step in the machine. For example, the balloon could knock into a switch, release another object, or press a button as it moves.
+
+      Prompt #4:
+
+      > The balloon cannot have been filled with helium, since in its initial state it is hanging downwards from the string, and not floating on top.
+      
+      Response #4:
+
+      > That's a correct observation. If the balloon is hanging downwards, it's likely filled with air rather than helium. If the candle were to burn through the string in such a setup, here's what could happen next:
+      > 
+      > 1. The string is burned through, and the balloon is no longer suspended.
+      > 2. The balloon falls directly downward due to gravity.
+      > 3. Upon hitting the cactus or the floor, if the balloon doesn't pop from the cactus spines, it may simply come to rest on the surface or roll away, depending on the angle of impact and the surface texture.
+
+      **Verdict: passed**, sort of. Obsviously GPT-4V is not a master in Rube Goldberg machines, and it requires some prodding to reach the correct conclusion. However, the dialog does demonstrate the GPT-4V does have the capability to perform causality analysis through vision.
 
       <a name='bio_recognition'></a>
   
@@ -290,7 +336,15 @@ then we get a good answer:
 
 14. **Visual Illusions Awareness**
 
-      As demonstrated by the experiment [**Perspective and Size**](#perspective), the model is aware of the visual illusion involved, and is also able to analyze the effects of the illusion.
+      <img src="../assets/images/agi/illusion.jpg" style="width:70%">
+
+      Prompt: 
+      
+      > Describe this image
+
+      Response:
+
+      > The image presents an optical illusion known as the "impossible staircase" or "Penrose stairs," which is a two-dimensional depiction of a structure that appears to be a three-dimensional staircase forming a continuous loop. The stairs make four 90-degree turns as they ascend or descend to form a square or rectangular arrangement, creating the illusion that one could walk forever either upwards or downwards without ever getting any higher or lower. This object cannot exist in three-dimensional space as it defies the laws of physics and Euclidean geometry. It is an example of an "impossible object," which is a type of optical illusion.
 
       **Verdict: passed**
 
@@ -404,6 +458,6 @@ I know that AGi is not even rigorously defined yet, and that much more test samp
 
 - We welcome your comments or issue reports here: https://github.com/kaihuchen/articles/issues
 
-<!-- <banner class="page-header" role="banner">
-  <img src="../assets/images/q3.webp" alt="Banner Image">
-</banner> -->
+<banner class="page-header" role="banner">
+  <img src="../assets/images/agi/ascending-and-descending-escher-1960.jpg" alt="Banner Image">
+</banner>
