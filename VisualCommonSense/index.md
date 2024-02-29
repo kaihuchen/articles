@@ -63,7 +63,7 @@ then we get a good answer:
 
 <a name='object_permanance'></a>
 
-  1. **Object Permanence**
+1. **Object Permanence**
   
       Given the following image:
 
@@ -79,9 +79,9 @@ then we get a good answer:
 
       **Verdict: passed**
 
-  <a name='gravity'></a>
+<a name='gravity'></a>
 
-  2. **Gravity's Effect**
+2. **Gravity's Effect**
   
       Given the following image:
 
@@ -106,7 +106,7 @@ then we get a good answer:
 
 <a name='light_and_shadow'></a>
 
-  3. **Light Source and Shadows**
+3. **Light Source and Shadows**
 
   
       Given the following image:
