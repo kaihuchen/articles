@@ -24,6 +24,9 @@
 
 **GenAI Vision Applications**
 
+- [**Is OpenAI's GPT-4V Ready for AGI?**](https://kaihuchen.github.io/articles/VisualCommonSense)
+
+    *Published: Feb 29, 2024*
 - [**LMM for Level 5 Autonomous Driving**](https://github.com/kaihuchen/AutonomousBackseatDriver/blob/main/README.md): testing out the potential of using LMM (Large Multimodal Models) under the scenario of Level 5 autonomous driving, demonstrating LMM's capabilities in visual recognition, scene analysis, commonsense responses, and explanation. \
     *Published: Feb 2024*
 - [LMM for a Home GuandianBot](https://github.com/kaihuchen/GuardianBot/blob/main/README.md): (draft) testing out the potential of using LMM (Large Multimodal Models) under the scenario of a home robot for detecting any hazards or threats, taking actions or escalating alerts as appropriate.\
