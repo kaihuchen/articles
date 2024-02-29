@@ -6,7 +6,7 @@
 
 *Published: February 29, 2024*
 
-Does OpenAI's vision model GPT-4V have sufficient visual common sense to support AGI (Artificial General Intelligence), however it is defined?
+Does OpenAI's vision model GPT-4V have sufficient visual common sense to support AGI (Artificial General Intelligence)? Here we evaluate GPT-4V against a suite of 17 fundamental visual capabilities.
 
 Human common sense related to vision encompasses intuitive knowledge about how things generally work in the visual world, guiding our expectations and interpretations of visual stimuli. Here's a list that captures some of these common-sense understandings:
 
@@ -31,6 +31,11 @@ Human common sense related to vision encompasses intuitive knowledge about how t
 
 These elements of common sense related to vision are fundamental to how humans interact with and interpret the world around them, guiding everyday actions and decisions.
 
+## Experimental Setup
+
+- All experiments are performed in ChatGPT4's browser interface.
+- Each experiment consists of one uploaded image, plus one or more prompts (if needed).
+
 ## Prompting technique
 
 Proper prompting for a vision model is very important in setting the context and direct the model's attention in the right direction.
@@ -51,12 +56,7 @@ However, if we prompt the model as follows:
 
 > describe this image, and figure out of the two persons in the image which one is closer and which is further away
 
-then we get a good answer:
-
-> The image is an illustration of two people. On the left, there is an elderly man, likely in his senior years, dressed in a suit with a tie, and wearing glasses. He appears to be gesturing with his hand over his heart, which might indicate sincerity or making a point. On the right, there is a younger woman with dark hair, wearing glasses, and a black garment with what seems to be a pattern of letters or symbols. She has her index finger raised, which often suggests she's making a point or indicating she has something to say.
->    
-> Regarding their positions, the man appears to be slightly further away because he is partially behind the woman. The woman is closer to the viewer as indicated by her full frontal appearance and the fact that she overlaps the man's image. This overlapping and the relative size and clarity of the figures suggest that the woman is positioned closer to the viewer than the man.
-
+then we get a good answer. Details can be found [HERE](#depth).
 
 ## Experiments
 
@@ -449,10 +449,9 @@ We have tested GPT-4V for common sense behavior in specific domains:
 
 ## Conclusions
 
-Does OpenAI's vision model GPT-4V have enough visual common sense to support AGI? My take is that it is actually kind of close.
+The tests indicate that OpenAI's vision model GPT-4V possesses a significant degree of visual common sense, which could be conducive to supporting AGI, but it's important to recognize that more extensive testing and a larger data set are necessary for a conclusive assessment. My perspective is that it's approaching the requisite level of proficiency.
 
-I know that AGi is not even rigorously defined yet, and that much more test samples are needed to be valid, but these experiments do give a strong hint that we are much closer to AGI than pteviously thought possible.
-
+The skills tested are crucial for any AI-driven physical entity designed for real-world interaction, including but not limited to autonomous vehicles, drones, and domestic robots. Multimodal Large Language Models (LLMs) like GPT-4V, once optimized for speed and efficiency, are poised to play a pivotal role in this arena.
 
 ## Additional Resources
 
