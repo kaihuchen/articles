@@ -79,7 +79,7 @@ then we get a good answer:
 
       **Verdict: passed**
 
-<a name='gravity'></a>
+  <a name='gravity'></a>
 
   2. **Gravity's Effect**
   
@@ -129,7 +129,7 @@ then we get a good answer:
 
 <!-- The image features a spherical object centrally placed under a focused light source that casts a soft shadow on a plain surface. The sphere has a glossy texture, suggestive of a material like ceramic or glass. It is adorned with a pattern of intertwined lines in bold colors: red, blue, and yellow, separated by thin white borders, creating a labyrinthine design that covers its entire surface. The play of light creates a bright highlight on the top left side of the sphere, where the light is most intense, and this light reflects onto the surface, creating a halo effect around the shadow. The background and surface on which the sphere rests are neutral and lack any distinctive features, putting the entire focus on the sphere itself. The setting evokes a serene, almost meditative quality, with the sphere's design drawing the eye in a contemplative manner. The colors are vibrant against the muted background, and the lighting gives the object a three-dimensional feel. -->
 
-<a name='perspective'></a>
+  <a name='perspective'></a>
 
   4. **Perspective and Size**
   
