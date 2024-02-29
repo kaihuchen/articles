@@ -373,13 +373,25 @@ then we get a good answer:
 
       **Verdict: passed** -->
 
-## Additional compound tests
+## Other tests
 
+We have tested GPT-4V for common sense behavior in specific domains:
 
+- [**LMM for Level 5 Autonomous Driving**](https://github.com/kaihuchen/AutonomousBackseatDriver/blob/main/README.md): this tests out the potential of GPT-4V under the scenario of Level 5 autonomous driving, which demonstrates that GPT-4V has performed very well in scene analysis, offering commonsense responses and explanation. \
+    *Published: Feb 2024*
+- [LMM for a Home GuandianBot](https://github.com/kaihuchen/GuardianBot/blob/main/README.md): (incomplete) This tests out the potential of using GPT-4V under the scenario of a fictional home robot for protecting residents against any hazards or threats, and taking commonsense actions or escalating alerts as appropriate.\
+*Unpublished*
 
 ## Conclusions
 
+Does OpenAI's vision model GPT-4V have enough visual common sense to support AGI? My take is that it is actually kind of close.
+
+I know that AGi is not even rigorously defined yet, and that much more test samples are needed to be valid, but these experiments do give a strong hint that we are much closer to AGI than pteviously thought possible.
+
+
 ## Additional Resources
+
+- We welcome your comments or issue reports here: https://github.com/kaihuchen/articles/issues
 
 <!-- <banner class="page-header" role="banner">
   <img src="../assets/images/q3.webp" alt="Banner Image">
