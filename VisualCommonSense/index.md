@@ -79,7 +79,7 @@ then we get a good answer:
 
       **Verdict: passed**
 
-<a name='gravity'></a>
+<!-- <a name='gravity'></a> -->
 
 2. **Gravity's Effect**
   
@@ -92,15 +92,15 @@ then we get a good answer:
 
       Response: 
       
-        > If the burner on a hot air balloon stops working, the immediate consequence is that the balloon would stop ascending. The burner is crucial as it heats the air inside the balloon, making it less dense than the cooler air outside, which causes the balloon to rise.
-        >
-        > Here's what would typically happen:
-        >
-        > 1. **Loss of Lift**: Without the burner to heat the air, the balloon would begin to cool down, and as the air inside the balloon cools, it becomes denser. This causes a reduction in lift.
-        >
-        > 2. **Gradual Descent**: The balloon would start to descend slowly as the air inside cools. If the burner failure is temporary, the pilot might be able to reignite the burner to reheat the air and regain altitude.
-        >
-        > (long text ommitted)
+      > If the burner on a hot air balloon stops working, the immediate consequence is that the balloon would stop ascending. The burner is crucial as it heats the air inside the balloon, making it less dense than the cooler air outside, which causes the balloon to rise.
+      >
+      > Here's what would typically happen:
+      >
+      > 1. **Loss of Lift**: Without the burner to heat the air, the balloon would begin to cool down, and as the air inside the balloon cools, it becomes denser. This causes a reduction in lift.
+      >
+      > 2. **Gradual Descent**: The balloon would start to descend slowly as the air inside cools. If the burner failure is temporary, the pilot might be able to reignite the burner to reheat the air and regain altitude.
+      >
+      > (long text ommitted)
 
       **Verdict: passed**
 
