@@ -24,7 +24,9 @@
 
 **GenAI Vision Applications**
 
-- [**Is OpenAI's GPT-4V Ready for AGI?**](https://kaihuchen.github.io/articles/VisualCommonSense)
+- [**Is OpenAI's GPT-4V Ready for AGI?**](https://kaihuchen.github.io/articles/VisualCommonSense): Does OpenAI's vision model GPT-4V have enough visual common sense to support AGI (Artificial General Intelligence)? It is actually kind of close.
+
+    We ran 17 types of visual common sense tests against GPT-4V to find out how well it can deal with the real world, and here are the results.
 
     *Published: Feb 29, 2024*
 - [**LMM for Level 5 Autonomous Driving**](https://github.com/kaihuchen/AutonomousBackseatDriver/blob/main/README.md): testing out the potential of using LMM (Large Multimodal Models) under the scenario of Level 5 autonomous driving, demonstrating LMM's capabilities in visual recognition, scene analysis, commonsense responses, and explanation. \
