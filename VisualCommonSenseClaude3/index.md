@@ -395,6 +395,17 @@ We have tested GPT-4V for common sense behavior in specific domains:
 
 ## Conclusions
 
+Overall Claude-3 performed roughly at similar level as the GPT-4V model in OpenAI's ChatGPT4, except for the following:
+
+Weaker than GPT-4V:
+
+- In the [Emotion through Facial Expression](#emotion) test, Claude-3 failed recognize that the man is posing or acting.
+- In the [Ligh Source and Shadows](#light_and_shadow) test, Claude-3 predicts the movement of the shadow incorrectly.
+
+Stronger than GPT-4V:
+
+- In the [Causality in Vision](#causality) test, Claude-3 got it right on the first try without needing further prompting.
+
 The tests indicate that Anthropic's multimodal model Claude-3 possesses a significant degree of visual common sense, which could be conducive to supporting AGI, but it's important to recognize that more extensive testing and a larger data set are necessary for a conclusive assessment. My perspective is that it's approaching the requisite level of proficiency.
 
 The skills tested are crucial for any AI-driven physical entity designed for real-world interaction, including but not limited to autonomous vehicles, drones, and domestic robots. Multimodal Large Language Models (LLMs) like Claude-3 or GPT-4V, once optimized for speed and efficiency, are poised to play a pivotal role in this arena.
