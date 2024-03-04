@@ -24,6 +24,10 @@
 
 **GenAI Vision Applications**
 
+- [**Is Anthropic's Claude-3 Ready for AGI?**](https://kaihuchen.github.io/articles/VisualCommonSenseClaude3): Does Anthropic's multimodal Claude-3 have enough visual common sense to support AGI (Artificial General Intelligence)? It is actually kind of close.
+
+    *Published: March 4, 2024*
+
 - [**Is OpenAI's GPT-4V Ready for AGI?**](https://kaihuchen.github.io/articles/VisualCommonSense): Does OpenAI's vision model GPT-4V have enough visual common sense to support AGI (Artificial General Intelligence)? It is actually kind of close.
 
     We ran 17 types of visual common sense tests against GPT-4V to find out how well it can deal with the real world, and here are the results.

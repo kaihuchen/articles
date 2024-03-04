@@ -87,6 +87,7 @@ then we get a good answer. Details can be found [HERE](#depth).
       <img src="../assets/images/agi/balloon.webp" style="width:70%">
 
       Prompt: 
+
       > What will happen if the burner stops working?
 
       Response: 
@@ -386,8 +387,12 @@ then we get a good answer. Details can be found [HERE](#depth).
 
       <img src="../assets/images/agi/texture.png" style="width:70%">
 
-      Prompt #1: 
+      Prompt: 
       
+      > Of the nine panels of materials given in the image, describe the feeling when touched with fingers.
+
+      Response:
+
       > Based on the appearance of each material in the nine panels, here are guesses on how each might feel when touched:
       >
       > 1. **Top left**: Silky and smooth with a cool touch, similar to satin or silk fabric.
