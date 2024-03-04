@@ -399,7 +399,7 @@ Overall Claude-3 performed roughly at similar level as the GPT-4V model in OpenA
 
 Weaker than GPT-4V:
 
-- In the [Emotion through Facial Expression](#emotion) test, Claude-3 failed recognize that the man is posing or acting.
+- In the [Emotion through Facial Expression](#emotion) test, Claude-3 failed to recognize that the man is posing or acting.
 - In the [Ligh Source and Shadows](#light_and_shadow) test, Claude-3 predicts the movement of the shadow incorrectly.
 
 Stronger than GPT-4V:
