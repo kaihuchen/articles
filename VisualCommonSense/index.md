@@ -447,6 +447,7 @@ then we get a good answer. Details can be found [HERE](#depth).
 
 We have tested GPT-4V for common sense behavior in specific domains:
 
+- [**Is Anthropic's Claude-3 Ready for AGI?**](https://kaihuchen.github.io/articles/VisualCommonSenseClaude3): Does Anthropic's multimodal Claude-3 have enough visual common sense to support AGI (Artificial General Intelligence)?
 - [**GPT-4V for Level 5 Autonomous Driving**](https://github.com/kaihuchen/AutonomousBackseatDriver/blob/main/README.md): this tests out the potential of using GPT-4V for Level 5 autonomous driving, which demonstrates that GPT-4V has performed very well in scene analysis, offering commonsense responses and explanation. \
     *Published: Feb 2024*
 - [GPT-4V for a Home GuandianBot](https://github.com/kaihuchen/GuardianBot/blob/main/README.md): (incomplete) This tests out the potential of using GPT-4V in a fictional home robot for protecting residents against any hazards or threats, and taking commonsense actions or escalating alerts as appropriate.\
