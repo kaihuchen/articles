@@ -8,9 +8,9 @@
 
 There is a gigantic Gen AI wave happening, how can we ride it safely?
 
-The rapid evolution of the Generative AI (GenAI) space indeed presents a challenging environment for startups. Here are several reasons why a new GenAI startup could face difficulties or even get annihilated as the technology and market landscape evolve.
+The rapid evolution of the Generative AI (GenAI) space presents a challenging environment for startups. Here are several reasons why a new GenAI startup could face difficulties or even get annihilated as the technology and market landscape evolve.
 
-The *Ensemble Architecture* is about using a panel of diverse GenAI chatbots to work together to fulfill a given task, either by collaborative delegation, or through constructive competition, or a combination of both. Obviously this architecture has its advantages and disadvantages, so given here is an detailed study of why this architecture might be a worthwhile pursue, under certain circumstances.
+The *Ensemble Architecture* is about using a panel of diverse GenAI chatbots to work together in order to fulfill a given task, either by collaborative delegation, or through constructive competition, or a combination of both. Obviously this architecture has its advantages and disadvantages, so this is a detailed study to find out why this architecture might be a worthwhile pursue under certain circumstances.
 
 Given below is a list of potential reasons why a GenAI startup might fail, and here we will try to see how the ensemble architecture will fare agianst such perils.
 
