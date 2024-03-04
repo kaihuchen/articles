@@ -4,11 +4,15 @@
 
 *DRAFT*
 
-# How to Surf the GenAI Wave
+# Surfing the GenAI Wave with the Ensemble Architecture
 
-There is a gigantic Gen AI wave happening, do you know how to ride it safely?
+There is a gigantic Gen AI wave happening, how can we ride it safely?
 
-The rapid evolution of the Generative AI (GenAI) space indeed presents a challenging environment for startups. Here are several reasons why a new GenAI startup could face difficulties or even get annihilated as the technology and market landscape evolve:
+The rapid evolution of the Generative AI (GenAI) space indeed presents a challenging environment for startups. Here are several reasons why a new GenAI startup could face difficulties or even get annihilated as the technology and market landscape evolve.
+
+The *Ensemble Architecture* is about using a panel of diverse GenAI chatbots to work together to fulfill a given task, either by collaborative delegation, or through constructive competition, or a combination of both. Obviously this architecture has its advantages and disadvantages, so given here is an detailed study of why this architecture might be a worthwhile pursue, under certain circumstances.
+
+Given below is a list of potential reasons why a GenAI startup might fail, and here we will try to see how the ensemble architecture will fare agianst such perils.
 
 1. **Technological Advancements**: GenAI is characterized by rapid advancements. A startup may invest in a technology that becomes outdated quickly due to newer models or approaches.
 
@@ -51,6 +55,10 @@ The rapid evolution of the Generative AI (GenAI) space indeed presents a challen
 20. **Infrastructure Costs**: The cost of computing power to train sophisticated AI models can be prohibitive for startups with limited budgets.
 
 Navigating these challenges requires a GenAI startup to be agile, well-funded, and strategically savvy, with a clear focus on innovation, security, ethics, and customer needs.
+
+## The Ensemble Architecture
+
+
 
 <!-- <banner class="page-header" role="banner">
   <img src="../assets/images/q3.webp" alt="Banner Image">
