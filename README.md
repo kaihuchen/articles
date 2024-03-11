@@ -21,6 +21,8 @@
 
 **GenAI for the Enterprises**
 
+- [**The Manchurian Chatbot Problem: Are Chatbot Viruses Coming Our Way?**](https://kaihuchen.github.io/articles/ManchurianCandidate): Large Language Model (LLM) chatbots are becoming more advanced, but this progress could also lead to the "Manchurian Candidate" problem: the risk of adversaries implanting malicious data into LLMs' long-term memories, which could be triggered to cause harm. 
+
 - [**Building Enterprise GenAI Chatbots**](EnterpriseBots): It is important to recognize that enterprise GenAI chatbots are essentially the latest iteration of traditional enterprise software applications. As such, many of the same challenges faced during their development cycles should not be overlooked or underestimated. \
     *Published: Feb 27, 2024*
 
