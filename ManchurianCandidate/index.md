@@ -38,7 +38,7 @@ By focusing on these strategies, we can enhance the security of LLMs during thei
 
 ## Additional Resources
 
-- Other articles about issues related to the [applications of Generative AI in the enterprises](https://kaihuchen.github.io/articles/#enterprise)
+- Other articles about issues related to the [Generative AI for the enterprises](https://kaihuchen.github.io/articles/#enterprise)
 - [Other khub.ai articles regarding generative AI](https://kaihuchen.github.io/articles/)
 - You may post your [comments or issue reports here](https://github.com/kaihuchen/articles/issues)
 
