@@ -2,11 +2,11 @@
   <img src="../assets/images/brainstorming.webp" alt="Banner Image" style="">
 </banner>
 
-# Brainstorming with Bots on Universal Information Worker
+# Brainstorming with Chatbots on building the Universal Information Worker
 
 *Last updated: March 12, 2024*
 
-This is a work log that serves the following purposes:
+This is a working log that serves the following purposes:
 
 - This is a technical design document regarding how to implement a Universal Information Worker (UIW) for the enterprises. The motivation for UIW can be found [HERE](https://www.linkedin.com/posts/kaihuchen_title-building-a-genai-based-universal-information-activity-7173027315751333888-nGuM/?utm_source=share&utm_medium=member_desktop).
 - This is also meant as a test ground for implementing a substantial GenAI enterprise software with the help of chatbots, from brainstorming to actual implementation. 
@@ -27,8 +27,8 @@ The entries below are listed in *reverse chronological* order
 
 ## Index of Contents
 
-- Finding a good name
 - [The overall setup of this experiment](#setup)
+- [Finding a brand name](#brandname)
 
 <a name='setup'></a>
 
@@ -48,13 +48,14 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 - Unless noted otherwise, all prompts are given to a panel of two chatbots
 - Unless noted otherwise, only the reconciled round-3 results are presented so that this article does not get excessively long. The lists given in round 3 may also get truncated if it gets too long.
 
+<a name='brandname'></a>
 
-## Finding a good name
+## Finding a brand name
 
-**Prompt to the chatbot panel**: I am building a GenAI chatbot intended for use by enterprises. This chatbot behaves like an individual worker with the ability to operate any existing software GUI intended for human workers, and it is able to communicate in natural language, solve problems, create contents, and work with human or chatbot colleagues in a team in order to complete the assigned task. Please come up with some catchy names to describe this system.
+- **Prompt to the chatbot panel**: I am building a GenAI chatbot intended for use by enterprises. This chatbot behaves like an individual worker with the ability to operate any existing software GUI intended for human workers, and it is able to communicate in natural language, solve problems, create contents, and work with human or chatbot colleagues in a team in order to complete the assigned task. Please come up with some catchy names to describe this system.
 <!-- I am building a system that employs a panel (or ensemble) of GenAI chatbots to debate each other in order to get things done. Please come up with some catchy names to describe this system. -->
 
-**Round #3: Resolution and Synthesized Opinions**
+- **Round #3: Resolution and Synthesized Opinions**
 
     Participant: #1:openai_gpt-4
         
@@ -197,12 +198,13 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
         Inreconcilable Opinions:
         None. The opinions from both sources were able to be combined without conflict.
         
-**Decision**: Deferred
+- **Decision**: Deferred
 
 
 ## Finding target application domains
 
-**Prompt**: Imagine that you are an entrepreneur in generative AI, and you want to use a technology involving many GenAI chatbots to help with making important decision together in order to improve prediction accuracy and reliability. Please make brainstorming suggestions on which domains and what kind of applications might have a sizable market, that are suitable for the said technology. 
+**Prompt**: 
+<!-- Imagine that you are an entrepreneur in generative AI, and you want to use a technology involving many GenAI chatbots to help with making important decision together in order to improve prediction accuracy and reliability. Please make brainstorming suggestions on which domains and what kind of applications might have a sizable market, that are suitable for the said technology.  -->
 
 **Gemini**: Here's a brainstorm of domains and applications suitable for a decision-making system powered by collaborative generative AI chatbots, focusing on market potential:
 
