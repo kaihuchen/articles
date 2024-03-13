@@ -64,8 +64,14 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 2. list
 
   * With some
-  
+
   * Sub bullets
+
+<p>This is a detailed paragraph that can be formatted with <strong>bold</strong>, <em>italic</em>, or even <code>code</code> syntax.</p>
+<ul>
+    <li>You can also include lists</li>
+    <li>And other markdown features</li>
+</ul>
 
 </details>
 
