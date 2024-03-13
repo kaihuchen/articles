@@ -2,7 +2,7 @@
   <img src="../assets/images/brainstorming.webp" alt="Banner Image" style="">
 </banner>
 
-# Brainstorming with Chatbots on building the Universal Information Worker
+# Brainstorming with Chatbots on building a Universal Information Worker Chatbot
 
 *Last updated: March 12, 2024*
 
@@ -28,18 +28,21 @@ The entries below are listed in *reverse chronological* order
 ## Index of Contents
 
 - [The overall setup of this experiment](#setup)
-- [Finding a brand name](#brandname)
-- [Justifying the UIW approach](#justifyuiw)
-- [Justifying the Ensemble GenAI approach](#justifyensemble)
+- [Goal: Finding a brand name](#brandname)
+- [Goal: Justifying the UIW approach](#justifyuiw)
+- [Goal: Interfacing UIW with arbitrary web-based GUIs](#selenium)
+- (upcoming) Goal: Understand GUI contents
+- (upcoming) Goal: Extract data and control a web-based GUI from a chatbot
+- (upcoming) Goal: Demonstrate that chatbot can execute intended actions on a web-based GUI when given English commands
+- (upcoming) Goal: Flesh out issues to be resolved for a chatbot to work as a team member
 
 <a name='setup'></a>
 
 ## The Setup
 
-
 A panel of GenAI chatbots are used to help us flesh out the design process from end to end. 
 
-- The following LLMs for their robust text and vision capabilities:
+- The following LLMs are selected for their robust text and vision capabilities:
   - OpenAI gpt-4
   - Anthropic Claude-3-opus-20240229
 - Each LLM is accessed through Python Langchain's ConversationChain class
@@ -49,25 +52,11 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
   - Round 3: Resolution and Synthesis. Each chatbot tries to reconcile opponent's opinions with its own to create a synthesized opinion. Issues that cannot be reconciled are listed separately.
 - Unless noted otherwise, all prompts are given to a panel of two chatbots
 - Unless noted otherwise, only the reconciled round-3 results are presented so that this article does not get excessively long. The lists given in round 3 may also get truncated if it gets too long.
+- Opinions from the chatbots are mainly used as a design reference, and should't be taken as-is without questioning or verification.
 
 <a name='brandname'></a>
 
-## Finding a brand name
-
-#### Example
-
-<!-- <details markdown=1 >
-  <summary>XXXClick to expand!</summary>
-  
-## Heading 2
-
-1. A numbered
-2. list
-  * With some
-  * Sub bullets
-
-</details> -->
-
+## Goal: Finding a brand name
 
 - **Prompt to the chatbot panel**: I am building a GenAI chatbot intended for use by enterprises. This chatbot behaves like an individual worker with the ability to operate any existing software GUI intended for human workers, and it is able to communicate in natural language, solve problems, create contents, and work with human or chatbot colleagues in a team in order to complete the assigned task. Please come up with some catchy names to describe this system.
 <!-- I am building a system that employs a panel (or ensemble) of GenAI chatbots to debate each other in order to get things done. Please come up with some catchy names to describe this system. -->
@@ -228,7 +217,7 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 
 <a name='justifyuiw'></a>
 
-## Justifying the UIW approach
+## Goal: Justifying the UIW approach
 
 - **Prompt**: I am building a GenAI chatbot intended for use by enterprises. This chatbot behaves like an individual worker with the ability to operate any existing software GUI intended for human workers, and it is able to communicate in natural language, solve problems, create contents, and work with human or chatbot colleagues in a team in order to complete the assigned task. Please list the pros and cons of this approach.
 
@@ -252,7 +241,7 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
       3. Accuracy: A well-programmed GenAI chatbot can provide error-free outputs, thus improving the quality of work and reducing the chance of mistakes that can occur with human workers.
       
       4. Scalability: As a business grows, the chatbot can easily be scaled up to handle more tasks without the need for additional resources.
-      
+
       5. Utilizing LLMs: Using leading third-party LLMs (Language Model Libraries) will not only reduce development time and cost but also ensure that the chatbot is equipped with the latest technology and best practices in the field.
       
       Cons:
@@ -303,7 +292,7 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 
 <details markdown=1>
 
-<summary style="margin-left:41px;margin-bottom:11px">Opinions (click to open/close) 
+<summary style="margin-left:41px;margin-bottom:11px">Round 2 Opinions (click to open/close) 
 </summary>
 
     Round #2
@@ -483,7 +472,7 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 
 <details markdown=1>
 
-<summary style="margin-left:41px;margin-bottom:11px">Opinions (click to open/close) 
+<summary style="margin-left:41px;margin-bottom:11px">Round 3 Opinions (click to open/close) 
 </summary>
 
     Round #3
@@ -573,43 +562,21 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
       
 </details>
 
-**Conclusions**: 
+- **Conclusions**
+  - The UIW's ability to operate existing software GUIs and collaborate with human or chatbot colleagues is a core feature, thus we will proceed to look into relevant issues below.
+  - For simplicity sake, we will set our target to web-based GUIs for now. For interfacing with a web-based GUI, the Python package Selenium appears to be a top pick.
+  - The following sub-goals are thus defined:
+    1. Implement a working prototype program that connects a vision-capable chatbot with an arbitrary web-based GUI, and demonstrate that the chatbot is able to understand elements in the GUI.
+    2. Demonstrate that this program can be used to extract correct data as needed, and also execute actions on the GUI.
+    3. Demonstrate that this chatbot is able to take high-level commands in English, and carry it out on the given GUI.
+    4. Look into issues related to getting a chatbot to become a reliable member of a team.
 
-## Drilling down: 
+<a name='selenium'></a>
 
-Prompt: How 
-<!-- Imagine that you are an entrepreneur in generative AI, and you want to use a technology involving many GenAI chatbots to help with making important decision together in order to improve prediction accuracy and reliability. Please make brainstorming suggestions on which domains and what kind of applications might have a sizable market, that are suitable for the said technology.  -->
+## Goal: Interfacing UIW with arbitrary web-based GUIs
 
-**Gemini**: Here's a brainstorm of domains and applications suitable for a decision-making system powered by collaborative generative AI chatbots, focusing on market potential:
+- **Prompt**: Show me python code example for using Selenium to get a screenshot of a  GUI of a bank website, then use ChatGPT4 to recognize GUI elements in the screenshot and then control the mouse to operate the GUI in order to achieve specific goals
 
-  - Domains with Big Data, Complex Decisions, and High Stakes:
-
-    - Finance:
-        - Investment Analysis: Each chatbot could specialize in a different market sector, analysis style (fundamental, technical, etc.), or asset class. Their collective "wisdom," filtered through a decision engine, could offer more balanced investment recommendations.
-        - Risk Management: Diverse chatbots trained on different risk models (credit, market, operational) could identify potential blind spots overlooked by traditional risk assessments.
-        - Algorithmic Trading: Chatbots could generate new trading ideas or stress-test current strategies, potentially identifying unforeseen scenarios and enhancing optimization.
-
-    - Healthcare:
-        - Diagnosis and Treatment Planning: Chatbots trained on specific disease areas, medical literature, and anonymized patient data could suggest differential diagnoses or generate personalized treatment options, augmenting physicians' abilities.
-        - Clinical Trial Optimization: Designing a robust clinical trial is complex. Chatbots could identify gaps in study designs, anticipate recruitment challenges, and suggest ways to streamline the process.
-        - Medical Research: Analyzing vast amounts of research literature is labor-intensive. Chatbots could flag promising correlations, generate new hypotheses, or summarize vast bodies of research on specific topics.
-
-    - Supply Chain Management:
-        - Demand Forecasting: Chatbots could pull data from diverse sources like social media, weather patterns, and economic indicators to generate more accurate demand predictions, mitigating stockouts or oversupply.
-        - Logistics Optimization: Routing, real-time traffic and disruption updates, and shipment consolidation could be enhanced by chatbots collaborating to propose the most efficient logistics solutions.
-        - Supplier Analysis: AI bots could assess supplier capacity, risks (political, environmental), and compliance, adding context to traditional metrics for procurement decisions.
-
-    - Government and Policy:
-        - Policy Design: Chatbots could simulate the potential outcomes of different policy approaches, considering social, economic, and environmental impacts, helping officials make data-driven decisions.
-        - Resource Allocation: Analyzing complex data sets on demographics, infrastructure, and needs could allow chatbots to recommend areas for focused funding or resource deployment.
-        - Crisis Scenario Planning: Collaborating chatbots could rapidly analyze information during complex emergencies to propose evacuation routes, identify vulnerable populations, or predict cascading effects.
-
-  - Key Considerations for Success:
-
-    - Diversity of Data & Models: The strength of this approach lies in drawing from multiple perspectives. Training chatbots on different data sources and analytical models enhances decision-making.
-    - Transparency and Explainability: To gain user trust, especially in high-stakes scenarios, the system must explain how it combined the outputs of the various chatbots and why it generated a particular recommendation.
-    - Security and Bias: Careful attention must be paid to data security and protection against inherent biases in training data.
-    - Human-in-the-loop Architecture: This isn't about replacing human judgment, but augmenting it. Experts should retain the final decision-making authority, informed by the collective intelligence of the chatbot system.
 
 
 <!-- <banner class="page-header" role="banner">
