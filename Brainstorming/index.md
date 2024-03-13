@@ -65,7 +65,7 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 
 </details>
 
-<details>
+<details markdown=1 >
   <summary>XXXClick to expand!</summary>
   
 ## Heading 2
@@ -82,7 +82,7 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 <!-- I am building a system that employs a panel (or ensemble) of GenAI chatbots to debate each other in order to get things done. Please come up with some catchy names to describe this system. -->
 
 
-<details>
+<details markdown=1>
 
 <summary>Click to Expand</summary>
 
