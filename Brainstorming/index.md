@@ -54,9 +54,6 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 
 ## Finding a brand name
 
-- **Prompt to the chatbot panel**: I am building a GenAI chatbot intended for use by enterprises. This chatbot behaves like an individual worker with the ability to operate any existing software GUI intended for human workers, and it is able to communicate in natural language, solve problems, create contents, and work with human or chatbot colleagues in a team in order to complete the assigned task. Please come up with some catchy names to describe this system.
-<!-- I am building a system that employs a panel (or ensemble) of GenAI chatbots to debate each other in order to get things done. Please come up with some catchy names to describe this system. -->
-
 
 <details>
   <summary>XXXClick to expand!</summary>
@@ -64,9 +61,14 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
   ## Heading 1
   1. A numbered
   2. list
-     * With some
-     * Sub bullets
+    * With some
+    * Sub bullets
 </details>
+
+
+- **Prompt to the chatbot panel**: I am building a GenAI chatbot intended for use by enterprises. This chatbot behaves like an individual worker with the ability to operate any existing software GUI intended for human workers, and it is able to communicate in natural language, solve problems, create contents, and work with human or chatbot colleagues in a team in order to complete the assigned task. Please come up with some catchy names to describe this system.
+<!-- I am building a system that employs a panel (or ensemble) of GenAI chatbots to debate each other in order to get things done. Please come up with some catchy names to describe this system. -->
+
 
 <details>
 
