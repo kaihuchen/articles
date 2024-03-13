@@ -56,16 +56,7 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 
 #### Example
 
-<details markdown=1 open>
-<summary markdown="span">Shopping list</summary>
-
-* Vegetables
-* Fruits
-* Fish
-
-</details>
-
-<details markdown=1 >
+<!-- <details markdown=1 >
   <summary>XXXClick to expand!</summary>
   
 ## Heading 2
@@ -75,7 +66,7 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
   * With some
   * Sub bullets
 
-</details>
+</details> -->
 
 
 - **Prompt to the chatbot panel**: I am building a GenAI chatbot intended for use by enterprises. This chatbot behaves like an individual worker with the ability to operate any existing software GUI intended for human workers, and it is able to communicate in natural language, solve problems, create contents, and work with human or chatbot colleagues in a team in order to complete the assigned task. Please come up with some catchy names to describe this system.
@@ -84,9 +75,9 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 
 <details markdown=1>
 
-<summary>Click to Expand</summary>
+<summary>Round 3: Reconciliation and Synthesize</summary>
 
-- **Response: Round #3 - Resolution and Synthesized Opinions**
+- **Response: Resolution and Synthesized Opinions**
 
     Participant: #1:openai_gpt-4
         
