@@ -77,7 +77,7 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 
 <details markdown=1>
 
-<summary>**Response**: 
+<summary style="margin-left:41px;margin-bottom:11px">Opinions (click to open/close) 
 </summary>
 
     Participant: #1:openai_gpt-4
