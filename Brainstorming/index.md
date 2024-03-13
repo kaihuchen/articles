@@ -223,7 +223,7 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 
 </details>
 
-- **Decision**: Deferred
+- **Conclusions**: Deferred
 
 
 <a name='justifyuiw'></a>
@@ -232,14 +232,14 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 
 - **Prompt**: I am building a GenAI chatbot intended for use by enterprises. This chatbot behaves like an individual worker with the ability to operate any existing software GUI intended for human workers, and it is able to communicate in natural language, solve problems, create contents, and work with human or chatbot colleagues in a team in order to complete the assigned task. Please list the pros and cons of this approach.
 
-- **Response**:
+- **Responses**:
 
 <details markdown=1>
 
 <summary style="margin-left:41px;margin-bottom:11px">Round 1 Opinions (click to open/close) 
 </summary>
 
-  Round #1
+    Round #1
 
     Participant: #1:openai_gpt-4
 
@@ -301,7 +301,12 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 
 </details>
 
-  Round #2
+<details markdown=1>
+
+<summary style="margin-left:41px;margin-bottom:11px">Opinions (click to open/close) 
+</summary>
+
+    Round #2
 
     Participant: #1:openai_gpt-4
 
@@ -474,7 +479,14 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
         12. User acceptance (Score: 6)
         13. Training and maintenance (Score: 5)
 
-  Round #3
+</details>
+
+<details markdown=1>
+
+<summary style="margin-left:41px;margin-bottom:11px">Opinions (click to open/close) 
+</summary>
+
+    Round #3
 
     Participant: #1:openai_gpt-4
 
@@ -559,7 +571,9 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
         
         There doesn't appear to be any outright inreconcilable opinions. However, there are differences in the emphasis placed on various points, likely due to differing perspectives or experiences. For example, one critique might give more weight to cost-effectiveness, while the other might place more emphasis on versatility or data privacy. These differences could likely be reconciled through further discussion and analysis.
       
+</details>
 
+**Conclusions**: 
 
 ## Drilling down: 
 
