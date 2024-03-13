@@ -56,8 +56,8 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 
 #### Example
 
-<details open>
-<summary>Shopping list</summary>
+<details markdown=1 open>
+<summary markdown="span">Shopping list</summary>
 
 * Vegetables
 * Fruits
