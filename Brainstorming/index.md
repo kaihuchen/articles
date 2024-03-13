@@ -57,11 +57,11 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 - **Prompt to the chatbot panel**: I am building a GenAI chatbot intended for use by enterprises. This chatbot behaves like an individual worker with the ability to operate any existing software GUI intended for human workers, and it is able to communicate in natural language, solve problems, create contents, and work with human or chatbot colleagues in a team in order to complete the assigned task. Please come up with some catchy names to describe this system.
 <!-- I am building a system that employs a panel (or ensemble) of GenAI chatbots to debate each other in order to get things done. Please come up with some catchy names to describe this system. -->
 
-- **Response: Round #3 - Resolution and Synthesized Opinions**
-
 <details>
 
 <summary>Click to Expand</summary>
+
+- **Response: Round #3 - Resolution and Synthesized Opinions**
 
     Participant: #1:openai_gpt-4
         
