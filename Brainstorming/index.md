@@ -58,11 +58,12 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 <details>
   <summary>XXXClick to expand!</summary>
   
-  ## Heading 1
-  1. A numbered
-  2. list
-    * With some
-    * Sub bullets
+## Heading 1
+1. A numbered
+2. list
+  * With some
+  * Sub bullets
+
 </details>
 
 
