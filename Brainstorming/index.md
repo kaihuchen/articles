@@ -234,6 +234,11 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 
 - **Response**:
 
+<details markdown=1>
+
+<summary style="margin-left:41px;margin-bottom:11px">Round 1 Opinions (click to open/close) 
+</summary>
+
   Round #1
 
     Participant: #1:openai_gpt-4
@@ -293,6 +298,8 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
       6. Ethical considerations: As with any AI system, there may be ethical considerations around job displacement, accountability, and transparency when deploying a chatbot in an enterprise setting.
       
       7. User acceptance: Some employees may be resistant to working alongside a chatbot or may have concerns about its capabilities and impact on their job roles.
+
+</details>
 
   Round #2
 
