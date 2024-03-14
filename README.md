@@ -8,11 +8,11 @@
 
 <!-- <div style=“float: left”> !Image description </div> -->
 
-- [**Wood vs Buffett on NVDA**](WoodvsBuffett): An emulated debate between Cathie Wood and Warren Buffett on NVDA, as imagined by GenAI chatbots. Also with business models as suggested by chatbots. \
+- [**Wood vs Buffett on NVDA**](https://kaihuchen.github.io/articles/WoodvsBuffett/): An emulated debate between Cathie Wood and Warren Buffett on NVDA, as imagined by GenAI chatbots. Also with business models as suggested by chatbots. \
     *Published: Feb 26, 2024*
-- [**Qualitative Financial Risk Assessment using Collective AI Judgement**](Risks): having multiple GenAI chatbots engage in a debate to derive a qualitative assessment of financial risk in regard to a certain given major event. \
+- [**Qualitative Financial Risk Assessment using Collective AI Judgement**](https://kaihuchen.github.io/articles/Risks): having multiple GenAI chatbots engage in a debate to derive a qualitative assessment of financial risk in regard to a certain given major event. \
     *Published: Feb 18, 2024*
-- [**A Message from GenAI Chatbots to GenAI Startups**](TheDebate): find out how two leading GenAI chatbots debate about the future of GenAI startups. \
+- [**A Message from GenAI Chatbots to GenAI Startups**](/TheDebate): find out how two leading GenAI chatbots debate about the future of GenAI startups. \
     *Published: Feb 15, 2024*
 - [Ensemble AI](EnsembleAI):（draft) making many heterogeneous chatbots work together, distributed, at global scale.\
 *Unpublished*
