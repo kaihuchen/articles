@@ -21,6 +21,9 @@
 
 **GenAI for the Enterprises**
 
+- [**Brainstorming with Chatbots on building a Universal Information Worker Chatbot**](https://kaihuchen.github.io/articles/Brainstorming/): How to use an ensemble of debating chatbot to design and implement a Universal Information Worker chatbot for enterprises. \
+    *Published: March 14, 2024*
+
 - [**The Manchurian Chatbot Problem: Are Chatbot Viruses Coming Our Way?**](https://kaihuchen.github.io/articles/ManchurianCandidate): Large Language Model (LLM) chatbots are becoming more advanced, but this progress could also lead to the "Manchurian Candidate" problem: the risk of adversaries implanting malicious data into LLMs' long-term memories, which could be triggered to cause harm. \
     *Published: March 12, 2024*
 
