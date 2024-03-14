@@ -16,9 +16,9 @@ This is a constantly-updated document that serves the following purposes:
 
   Here are some relevant articles that demonstrate the use of a panel of debating chatbots:
 
-  - [**Wood vs Buffett on NVDA**](/WoodvsBuffett): An emulated debate between Cathie Wood and Warren Buffett on NVDA, as imagined by GenAI chatbots. Also with business models as suggested by chatbots.
-  - [**Qualitative Financial Risk Assessment using Collective AI Judgement**](/Risks)：having multiple GenAI chatbots engage in a debate to derive a qualitative assessment of financial risk in regard to a certain given major event.
-  - [**A Message from GenAI Chatbots to GenAI Startups**](/TheDebate): find out how two leading GenAI chatbots debate about the future of GenAI startups.
+  - [**Wood vs Buffett on NVDA**](/articles/WoodvsBuffett): An emulated debate between Cathie Wood and Warren Buffett on NVDA, as imagined by GenAI chatbots. Also with business models as suggested by chatbots.
+  - [**Qualitative Financial Risk Assessment using Collective AI Judgement**](/articles/Risks)：having multiple GenAI chatbots engage in a debate to derive a qualitative assessment of financial risk in regard to a certain given major event.
+  - [**A Message from GenAI Chatbots to GenAI Startups**](/articles/TheDebate): find out how two leading GenAI chatbots debate about the future of GenAI startups.
 
 <a name='worklog'></a>
 
