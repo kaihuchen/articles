@@ -4,15 +4,21 @@
 
 # Brainstorming with Chatbots on building a Universal Information Worker Chatbot
 
-*Last updated: March 12, 2024*
+*Last updated: March 14, 2024*
+
+
+Additionally, this document acts as a practical platform for developing substantial GenAI enterprise software, leveraging chatbots for everything from initial brainstorming to the final implementation phase. 
+It also explores the "Ensemble GenAI" concept, employing a group of chatbots engaged in constructive critique to collaboratively refine and determine the best approach to the given challenge.
+
+## Introduction
 
 This is a working log that serves the following purposes:
 
-- This is a technical design document regarding how to implement a Universal Information Worker (UIW) for the enterprises. The motivation for UIW can be found [HERE](https://www.linkedin.com/posts/kaihuchen_title-building-a-genai-based-universal-information-activity-7173027315751333888-nGuM/?utm_source=share&utm_medium=member_desktop).
-- This is also meant as a test ground for implementing a substantial GenAI enterprise software with the help of chatbots, from brainstorming to actual implementation. 
-- This is also a test ground for the *Ensemble GenAI* idea, where a panel of debating chatbots are used to work together under the *constructive critique* process in order to hash out an answer to the question at hand.
+- This document serves as a technical design guide for creating a Universal Information Worker (UIW) chatbot tailored for enterprise use. The underlying concept for the UIW is outlined [HERE](https://www.linkedin.com/posts/kaihuchen_title-building-a-genai-based-universal-information-activity-7173027315751333888-nGuM/?utm_source=share&utm_medium=member_desktop).
+- Additionally, this is a test ground for implementing a GenAI enterprise software with substantial assistance from chatbots, from brainstorming to actual implementation. 
+- This also explores the *Ensemble GenAI* idea, employing a group of chatbots engaged in constructive critique to collaboratively refine and determine the best approach to the given challenge.
 
-  Here are some relevant articles that demonstrate the process:
+  Here are some relevant articles that demonstrate the use of a panel of debating chatbots:
 
   - [**Wood vs Buffett on NVDA**](WoodvsBuffett): An emulated debate between Cathie Wood and Warren Buffett on NVDA, as imagined by GenAI chatbots. Also with business models as suggested by chatbots.
   - [**Qualitative Financial Risk Assessment using Collective AI Judgement**](Risks)：having multiple GenAI chatbots engage in a debate to derive a qualitative assessment of financial risk in regard to a certain given major event.
@@ -23,7 +29,7 @@ This is a working log that serves the following purposes:
 ## Work Log
 
 The entries below are listed in *reverse chronological* order
-- 2024.03.12 Initial content
+- 2024.03.12 Initial publication
 
 ## Index of Contents
 
@@ -35,6 +41,7 @@ The entries below are listed in *reverse chronological* order
 - (upcoming) Goal: Extract data and control a web-based GUI from a chatbot
 - (upcoming) Goal: Demonstrate that chatbot can execute intended actions on a web-based GUI when given English commands
 - (upcoming) Goal: Flesh out issues to be resolved for a chatbot to work as a team member
+- (...more...)
 
 <a name='setup'></a>
 
@@ -1006,6 +1013,19 @@ A panel of GenAI chatbots are used to help us flesh out the design process from 
 		  3. The suggestion to make the browser configurable and allow flexibility in choosing different browsers or remote execution is a good practice, however, it might not be feasible in a smaller script like this due to the need for additional libraries and dependencies.
 </details>
 
+- **Conclusions**:
+
+  - The debate process appears to enhance code quality. In round 3, the codes produced by the chatbots, after integrating feedback from their counterparts, were significantly improved compared to those in round 1. 
+  - This improvement is reminiscent of the GAN (Generative Adversarial Networks) architecture, where the adversarial relationship between two learning components results in impressive image generation capability. In this scenario, while the LLMs involved remain unchanged, the critiques from the debate act as an optimization mechanism that can be saved, reviewed, refined, and reused, representing an alternative form of learning.
+  - Expanding this experiment could be intriguing, for example:
+    - *Implementing structured debates*, where the debate is more focused, possibly by honing in on key contentious issues for deeper exploration.
+    - *Saving and reapplying critiques*, treating them as optimization operators that can be adjusted by humans and stored for future use. 
+    - *Exploring applications beyond coding*, to see where this adversarial debate process could yield benefits in other fields. 
+    - *Considering this as an alternative learning mechanism*, distinct from traditional LLM training or fine-tuning. Just as Retrieval Augmented Generation (RAG) adds a layer to LLMs without modifying the underlying model, adversarial debates could serve as another learning method worth investigating.
+
+## Goal: Understand GUI contents
+
+*to be filled*
 
 <!-- <banner class="page-header" role="banner">
   <img src="../assets/images/brainstorming.webp" alt="Banner Image">
