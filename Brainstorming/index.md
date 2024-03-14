@@ -6,17 +6,13 @@
 
 *Last updated: March 14, 2024*
 
-
-Additionally, this document acts as a practical platform for developing substantial GenAI enterprise software, leveraging chatbots for everything from initial brainstorming to the final implementation phase. 
-It also explores the "Ensemble GenAI" concept, employing a group of chatbots engaged in constructive critique to collaboratively refine and determine the best approach to the given challenge.
-
 ## Introduction
 
-This is a working log that serves the following purposes:
+This is a constantly-updated document that serves the following purposes:
 
-- This document serves as a technical design guide for creating a Universal Information Worker (UIW) chatbot tailored for enterprise use. The underlying concept for the UIW is outlined [HERE](https://www.linkedin.com/posts/kaihuchen_title-building-a-genai-based-universal-information-activity-7173027315751333888-nGuM/?utm_source=share&utm_medium=member_desktop).
+- This serves as a technical design guide for creating a **Universal Information Worker (UIW)** chatbot tailored for enterprise use. The underlying concept for the UIW is outlined [HERE](https://www.linkedin.com/posts/kaihuchen_title-building-a-genai-based-universal-information-activity-7173027315751333888-nGuM/?utm_source=share&utm_medium=member_desktop).
 - Additionally, this is a test ground for implementing a GenAI enterprise software with substantial assistance from chatbots, from brainstorming to actual implementation. 
-- This also explores the *Ensemble GenAI* idea, employing a group of chatbots engaged in constructive critique to collaboratively refine and determine the best approach to the given challenge.
+- The *Ensemble GenAI* idea is also explored here, employing a group of chatbots engaged in constructive critique to collaboratively refine and determine the best approach to the given challenge.
 
   Here are some relevant articles that demonstrate the use of a panel of debating chatbots:
 
@@ -29,7 +25,7 @@ This is a working log that serves the following purposes:
 ## Work Log
 
 The entries below are listed in *reverse chronological* order
-- 2024.03.12 Initial publication
+- 2024.03.14 Initial publication
 
 ## Index of Contents
 
@@ -47,19 +43,18 @@ The entries below are listed in *reverse chronological* order
 
 ## The Setup
 
-A panel of GenAI chatbots are used to help us flesh out the design process from end to end. 
+A panel of GenAI chatbots are used to assists in fully developing the design process. 
 
 - The following LLMs are selected for their robust text and vision capabilities:
   - OpenAI gpt-4
   - Anthropic Claude-3-opus-20240229
-- Each LLM is accessed through Python Langchain's ConversationChain class
-- For each given query, the debate among the chatbots take place in three rounds:
-  - Round 1: Opinion Presentation. Each chatbot expresses its opinions regarding the given query
-  - Round 2: Analysis and Critique. Each chatbot expresses its cretiques regarding the opinions given by other chatbots in round 1. Each chatbot also assign each critique with a score on a 1-10 scale.
-  - Round 3: Resolution and Synthesis. Each chatbot tries to reconcile opponent's opinions with its own to create a synthesized opinion. Issues that cannot be reconciled are listed separately.
+- These LLMs are accessed via the Python Langchain's ConversationChain class.
+- For each design goal, given as a prompt, the debate among the chatbots take place in three rounds:
+  - Round 1: Opinion Presentation. Each chatbot presents its opinions regarding the given prompt
+  - Round 2: Analysis and Critique. Each chatbot expresses its critiques regarding the opinions given by other chatbots in round 1.
+  - Round 3: Resolution and Synthesis. Each chatbot tries to reconcile opponent's opinions with its own to create a synthesized opinion. Unresolved issues are itemized.
 - Unless noted otherwise, all prompts are given to a panel of two chatbots
-- Unless noted otherwise, only the reconciled round-3 results are presented so that this article does not get excessively long. The lists given in round 3 may also get truncated if it gets too long.
-- Opinions from the chatbots are mainly used as a design reference, and should't be taken as-is without questioning or verification.
+- The chatbots' input is primarily for design guidance and should be critically assessed and verified.
 
 <a name='brandname'></a>
 
