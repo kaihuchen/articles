@@ -1016,7 +1016,7 @@ A panel of GenAI chatbots are used to assists in fully developing the design pro
     - *Implementing structured debates*, where the debate is more focused, possibly by honing in on key contentious issues for deeper exploration.
     - *Saving and reapplying critiques*, treating them as optimization operators that can be adjusted by humans and stored for future use. 
     - *Exploring applications beyond coding*, to see where this adversarial debate process could yield benefits in other fields. 
-    - *Considering this as an alternative learning mechanism*, distinct from traditional LLM training or fine-tuning. Just as Retrieval Augmented Generation (RAG) adds a layer to LLMs without modifying the underlying model, adversarial debates could serve as another learning method worth investigating.
+    - *Considering this as an alternative learning mechanism*, distinct from traditional LLM training or fine-tuning. Just as Retrieval Augmented Generation (RAG) allows in-context learning over LLMs without modifying the underlying model, adversarial debates could serve as another learning method worth investigating.
 
 ## Goal: Understanding GUI contents
 
