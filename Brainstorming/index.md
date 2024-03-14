@@ -10,9 +10,9 @@
 
 This is a constantly-updated document that serves the following purposes:
 
-- This serves as a technical design guide for creating a **Universal Information Worker (UIW)** chatbot tailored for enterprise use. The underlying concept for the UIW is outlined [HERE](https://www.linkedin.com/posts/kaihuchen_title-building-a-genai-based-universal-information-activity-7173027315751333888-nGuM/?utm_source=share&utm_medium=member_desktop).
-- Additionally, this is a test ground for implementing a GenAI enterprise software with substantial assistance from chatbots, from brainstorming to actual implementation. 
-- The *Ensemble GenAI* idea is also explored here, employing a group of chatbots engaged in constructive critique to collaboratively refine and determine the best approach to the given challenge.
+- This serves as a technical design guide for implementing a **Universal Information Worker (UIW)** chatbot tailored for enterprise use. The underlying concept for the UIW is outlined [HERE](https://www.linkedin.com/posts/kaihuchen_title-building-a-genai-based-universal-information-activity-7173027315751333888-nGuM/?utm_source=share&utm_medium=member_desktop).
+- Additionally, this is a test ground for **chatbot-assisted software design and implementation**, with substantial assistance from chatbots from brainstorming to actual coding. 
+- The **Ensemble GenAI** idea is also explored here, employing a group of chatbots engaged in constructive critique to collaboratively refine and determine the best approach to the given challenge.
 
   Here are some relevant articles that demonstrate the use of a panel of debating chatbots:
 
@@ -33,7 +33,7 @@ The entries below are listed in *reverse chronological* order
 - [Goal: Finding a brand name](#brandname)
 - [Goal: Justifying the UIW approach](#justifyuiw)
 - [Goal: Interfacing UIW with arbitrary web-based GUIs](#selenium)
-- (upcoming) Goal: Understand GUI contents
+- (upcoming) Goal: Understanding GUI contents
 - (upcoming) Goal: Extract data and control a web-based GUI from a chatbot
 - (upcoming) Goal: Demonstrate that chatbot can execute intended actions on a web-based GUI when given English commands
 - (upcoming) Goal: Flesh out issues to be resolved for a chatbot to work as a team member
@@ -1011,14 +1011,14 @@ A panel of GenAI chatbots are used to assists in fully developing the design pro
 - **Conclusions**:
 
   - The debate process appears to enhance code quality. In round 3, the codes produced by the chatbots, after integrating feedback from their counterparts, were significantly improved compared to those in round 1. 
-  - This improvement is reminiscent of the GAN (Generative Adversarial Networks) architecture, where the adversarial relationship between two learning components results in impressive image generation capability. In this scenario, while the LLMs involved remain unchanged, the critiques from the debate act as an optimization mechanism that can be saved, reviewed, refined, and reused, representing an alternative form of learning.
+  - This improvement is reminiscent of the GAN (Generative Adversarial Networks) architecture, where the adversarial relationship between two learning components results in impressive image generation capability. In the debating-chatbots scenario, while the LLMs involved remain unchanged, the critiques from the debate act as an optimization mechanism that can be saved, reviewed, refined, and reused, representing an alternative form of learning.
   - Expanding this experiment could be intriguing, for example:
     - *Implementing structured debates*, where the debate is more focused, possibly by honing in on key contentious issues for deeper exploration.
     - *Saving and reapplying critiques*, treating them as optimization operators that can be adjusted by humans and stored for future use. 
     - *Exploring applications beyond coding*, to see where this adversarial debate process could yield benefits in other fields. 
     - *Considering this as an alternative learning mechanism*, distinct from traditional LLM training or fine-tuning. Just as Retrieval Augmented Generation (RAG) adds a layer to LLMs without modifying the underlying model, adversarial debates could serve as another learning method worth investigating.
 
-## Goal: Understand GUI contents
+## Goal: Understanding GUI contents
 
 *to be filled*
 
