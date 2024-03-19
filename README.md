@@ -15,7 +15,7 @@
     *Published: Feb 18, 2024*
 - [**A Message from GenAI Chatbots to GenAI Startups**](/TheDebate): find out how two leading GenAI chatbots debate about the future of GenAI startups. \
     *Published: Feb 15, 2024*
-- [Ensemble AI](EnsembleAI):（draft) making many heterogeneous chatbots work together, distributed, at global scale.\
+- [Ensemble AI](EnsembleAI): (draft) making many heterogeneous chatbots work together, distributed, at global scale.\
 *Unpublished*
 
 <a name="enterprise"></a>

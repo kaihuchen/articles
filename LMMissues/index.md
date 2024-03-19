@@ -4,12 +4,11 @@
 
 # Navigating the Pitfalls of Vision Language Models
 
-
 Let me tell you a story about how a winning Claude-3 lose an *image classification debate* to GPT-4V, due to its weak personality. It is also about a *cougar on house deck*, and how AI could mistaken it as just a dog.
 
 ## Introduction
 
-A multimodal LLM (i.e., a LMM or MLLM) such as OpenAI's GPT-4V or Anthropic's Claude-3 can recognize a wide range of object classes, while also incorporating contextual information to achieve a kind of real-world visual common sense, which makes it extremely powerful for use in complex application domains such as autonomous vehicles, home robot, etc.
+A multimodal LLM (i.e., a LMM or MLLM) such as OpenAI's GPT-4V or Anthropic's Claude-3 can recognize a wide range of object classes, while also incorporating contextual information to achieve a kind of real-world visual common sense, which makes it extremely powerful for use in complex application domains such as autonomous vehicles, home robot, etc. See [some relevant studies HERE](https://github.com/kaihuchen/AutonomousBackseatDriver/blob/main/README.md)
 
 However, contextual information could also lead an LMM to incorrect decision, and different models may also behave differently. 
 
@@ -279,17 +278,14 @@ Unfortunately the result is that GPT-4V actually convinced Claude-3 to change it
 Here are the key takeways:
 
 - The tests #1 to #4 show that multimodal LLMs can be misled by contextual information to make incorrect object classification.
-- Sometimes it may be necessary to mask out the context in an image, if correct identification of a specific object is important.
-- Our very limited experiments seem to indicate that GPT-4V is more susceptible to contextual influence than Anthropic Claude-3. Of course larger scale tests are needed in order to confirm this, but it is something that application builders should be aware of.
-- In Test #5 where Claude-3 and GPT-4V are setup to debate each other on the identity of the animal (which is a cougar), it unfortunately results in Claude-3 (which made the correct classification in round 1) being convinced by GPT-4V (which made incorrect classification in round 1) to change to the wrong classification. 
+- In some cases, it may be necessary to remove the surrounding context in an image to ensure accurate object identification.
+- Our very preliminary tests suggest that GPT-4V is more influenced by context than Claude-3, though more extensive testing is needed to confirm this. This is an important consideration for LMM application developers.
+- In Test #5, where Claude-3 and GPT-4V debate an animal's identity (a cougar), Claude-3 initially identifies it correctly but is then swayed by GPT-4V’s incorrect classification, leading to a consensus on the incorrect identity.
 
-  Why is this so? In our previous experiments where we test each chatbot's ability to stay true to its own assertions in the [Gaslighting Test](https://kaihuchen.github.io/articles/Bugs/#gaslightingtest), we have found Claude-3 to perform worse than GPT-4V. If we anthropomorphize this a little, we can say that Claude-3 is the one with the "weaker personality", which is why Claude-3 changed its classification from the correct one to the wrong one.
+  This phenomenon might be explained by previous findings from our [Gaslighting Test](https://kaihuchen.github.io/articles/Bugs/#gaslightingtest), where Claude-3 was more likely than GPT-4V to shift from its initial stance. This could be interpreted as Claude-3 having a "weaker personality" (if we may anthropomorphize a little just for fun), causing it to adopt the incorrect classification after being influenced by GPT-4V.
 
-  **Bottomline: if you are choosing a chatbot to join in the debate panel, make sure that it passes the Gaslighting Test.**
-
-
+  **Bottomline: When selecting a chatbot for a debate panel, ensure it has successfully passed the Gaslighting Test.**
 
 
-<!-- <banner class="page-header" role="banner">
-  <img src="../assets/images/q3.webp" alt="Banner Image">
-</banner> -->
+
+<img src="../assets/images/big_small_robots.webp" alt="Image">
