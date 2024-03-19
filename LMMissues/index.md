@@ -142,7 +142,7 @@ Here are the results:
 
 Notably GPT-4V now correctly classifies the animal as a cougar. It is likely influenced by the removal of the wooden deck which is visible in Test #3.
 
-## Test #5: Two Chatbots Debating on Image Classification
+## Test #5: Battling Bots
 
 Previously we have performed a series of experiments where two chatbots are used to debate with each other using the Three-round Constructive Critique process (see [HERE](https://github.com/kaihuchen/articles/blob/main/README.md#ensemble) about Ensemble GenAI).
 
