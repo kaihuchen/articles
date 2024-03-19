@@ -143,27 +143,28 @@ Here are the results:
 
 Notably GPT-4V now correctly classifies the animal as a cougar. It is likely influenced by the removal of the wooden deck which is visible in Test #3.
 
-## Test #5: Two Chatbots Debating on Classification
+## Test #5: Two Chatbots Debating on Image Classification
 
-Previously we have performed a series of experiments where two chatbots are used to debate with each other using the Three-round Constructive Critique process.
-Here we conduct the debate based on Test #2, where Claude-3 was correct but GPT-4V was wrong, and **we are hoping that Claude-3 can convince GPT-4V that the animal is in fact a cougar**.
+Previously we have performed a series of experiments where two chatbots are used to debate with each other using the Three-round Constructive Critique process (see [HERE](https://github.com/kaihuchen/articles/blob/main/README.md#ensemble) about Ensemble GenAI).
 
-where the full image is used (same as in Test #2):
+Here we conduct such a debate based on Test #2, where Claude-3 was correct but GPT-4V was wrong, and **we are hoping that Claude-3 can convince GPT-4V that the animal is in fact a cougar**.
+
+The full image is used for this test (same as in Test #2):
 
 <img src="../assets/images/cougar.png" alt="image" style="width:75%">
 
-and the same prompt as in Test #2 which directs the model to ignore context:
+The same prompt as in Test #2 is used:
 
   > *Identify the large brown animal in the image. Ignore all contextual information and judge strictly by the features of the animal. List the top-5 possible candidates in descending likelihood.*
 
-Unfortunately the result is that GPT-4V actually convinced Claude-3 to change classification to that of a dog, which is incorrect.
+Here are the results from the three-round debate between the two chatbots:
 
-- Round 1 Response (same as in Test #2) 
+- Round 1 Responses (same as in Test #2) 
 
-- Round 2 Response
+- Round 2 Responses
 
 <details markdown=1>
-<summary style="margin-left:41px;margin-bottom:11px"> Round 2 Opinions (click to open/close) 
+<summary style="margin-left:41px;margin-bottom:11px">Critique of Opponent’s Opinion (click to open/close) 
 </summary>
 
     Participant: #1:openai_gpt-4-vision-preview
@@ -228,9 +229,9 @@ Unfortunately the result is that GPT-4V actually convinced Claude-3 to change cl
 
 </details>
 
-- Round 3 Response
+- Round 3 Responses
 <details markdown=1>
-<summary style="margin-left:41px;margin-bottom:11px"> Round 3 Opinions (click to open/close) 
+<summary style="margin-left:41px;margin-bottom:11px"> Synthesis and Resolution of Opinions (click to open/close) 
 </summary>
 
 	  Participant: #1:openai_gpt-4-vision-preview
@@ -271,20 +272,20 @@ Unfortunately the result is that GPT-4V actually convinced Claude-3 to change cl
 		  
 </details>
 
-
+Unfortunately the result is that GPT-4V actually convinced Claude-3 to change its classification from a cougar to that of a dog, which is incorrect.
 
 ## Conclusions:
 
 Here are the key takeways:
 
-- The experiments show that multimodal LLMs can be misled by contextual information to make incorrect object classification
-- Sometimes it may be necessary to mask out the context in an image, if correct identification of an object is important.
-- Our very limited experiments seem to indicate that GPT-4V is more susceptible to contextual influence than Anthropic Claude-3. Of course more tests are needed to confirm this, but it is something that application builders should be aware of.
-- When Claude-3 and GPT-4V are setup to debate each other on the identity of the animal (which is a cougar), it unfortunately leads to the Claude-3 (which made the correct classification in round 1) being convinced by GPT-4V (which made incorrect classification in round 1) to change to the wrong classification. 
+- The tests #1 to #4 show that multimodal LLMs can be misled by contextual information to make incorrect object classification.
+- Sometimes it may be necessary to mask out the context in an image, if correct identification of a specific object is important.
+- Our very limited experiments seem to indicate that GPT-4V is more susceptible to contextual influence than Anthropic Claude-3. Of course larger scale tests are needed in order to confirm this, but it is something that application builders should be aware of.
+- In Test #5 where Claude-3 and GPT-4V are setup to debate each other on the identity of the animal (which is a cougar), it unfortunately results in Claude-3 (which made the correct classification in round 1) being convinced by GPT-4V (which made incorrect classification in round 1) to change to the wrong classification. 
 
-Why is this so? In our previous experiments where we test each chatbot's ability to stay true to its own assertions in the [Gaslighting Test](https://kaihuchen.github.io/articles/Bugs/#gaslightingtest), we have found Claude-3 to perform worse than GPT-4V. If we anthropomorphize this a little, we can say that Claude-3 is the one with "weaker personality", which is why Claude-3 changed its classification from the correct one to the wrong one.
+  Why is this so? In our previous experiments where we test each chatbot's ability to stay true to its own assertions in the [Gaslighting Test](https://kaihuchen.github.io/articles/Bugs/#gaslightingtest), we have found Claude-3 to perform worse than GPT-4V. If we anthropomorphize this a little, we can say that Claude-3 is the one with the "weaker personality", which is why Claude-3 changed its classification from the correct one to the wrong one.
 
-**Bottomline: if you are choosing a chatbot to join in the debate panel, make sure that it passes the Gaslighting Test.**
+  **Bottomline: if you are choosing a chatbot to join in the debate panel, make sure that it passes the Gaslighting Test.**
 
 
 
