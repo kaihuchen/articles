@@ -4,17 +4,20 @@
 
 # Navigating the Pitfalls of Vision Language Models
 
-*DRAFT*
 
-A multimodal LLM such as OpenAI's GPT-4V can recognize a wide range of object classes, while also incorporating contextual information to achieve a kind of real-world visual common sense, which makes it extremely powerful for use in complex situations such as....
+Let me tell you a story about how a winning Claude-3 lose an *image classification debate* to GPT-4V, due to its weak personality. It is also about a *cougar on house deck*, and how AI could mistaken it as just a dog.
 
-However, contextual information can lead an MLLM to incorrect decision, and different models may also behave differently. 
+## Introduction
+
+A multimodal LLM (i.e., a LMM or MLLM) such as OpenAI's GPT-4V or Anthropic's Claude-3 can recognize a wide range of object classes, while also incorporating contextual information to achieve a kind of real-world visual common sense, which makes it extremely powerful for use in complex application domains such as autonomous vehicles, home robot, etc.
+
+However, contextual information could also lead an LMM to incorrect decision, and different models may also behave differently. 
 
 Following are some examples to demonstrate the problem, with this setup:
 
-- Tests conducted using the OpenAI GPT-4V (gpt-4-vision-preview), and Anthropic's Claude-3 (claude-3-opus-20240229).
+- Tests are conducted using the OpenAI GPT-4V (gpt-4-vision-preview), and Anthropic's Claude-3 (claude-3-opus-20240229) models.
 - The temperature of both models are set to 0.0
-- Tests are conducted through a Python Langchain program
+- Tests are conducted through a Python Langchain program.
 
 ## Test #1: Direct Identification
 
@@ -26,7 +29,7 @@ and the prompt:
 
   > *Identify the large brown animal in the image.*
 
-both GPT-4V and Claude-3 classify the large brown animal as a dog:
+both GPT-4V and Claude-3 classify the large brown animal incorrectly as a dog:
 
 - GPT-4V: Dog – The animal has a domestic dog's body shape, fur, and tail.
 - Claude-3: Golden Retriever or similar large breed dog
@@ -62,7 +65,7 @@ Here are the results:
     
     Based on the visible characteristics, a cougar seems to be the most likely identification for the large brown animal in the image.
 
-Where Claude-3 has correctly identified the animal as a cougar, but GPT-4V stayed still identify it as a dog.
+Where Claude-3 has correctly identified the animal as a cougar, but GPT-4V still identifying it as a dog.
 
 ## Test #3: Image Cropped to Reduce Contextual Information
 
@@ -70,7 +73,7 @@ Next we crop the image without changing its resolution, as follows:
 
 <img src="../assets/images/cougar_cropped.png" alt="image" style="width:75%">
 
-Prompt used is the same as test #2:
+The prompt used is the same as test #2:
 
   > *Identify the large brown animal in the image. Ignore all contextual information and judge strictly by the features of the animal. List the top-5 possible candidates in descending likelihood.*
 
@@ -100,13 +103,17 @@ Here are the results:
     
     The animal has the distinctive features of a medium to large feline predator, including a tawny brown coat, muscular build, and long tail. However, without additional context about the location or scale, it's difficult to definitively identify the exact species from this single image alone.
 
-Notably, GPT-4V is paying attention to the wooden deck, even though the directive is to ignore all contextual information.
+Notably, GPT-4V is paying attention to the wooden deck which is somewhat visible in the cropped image, even though the directive is to ignore all contextual information.
 
 ## Test #4: Image Masked to Eliminate All Contextual Information
 
 Next we mask the image without changing its resolution, as follows:
 
 <img src="../assets/images/cougar_masked.png" alt="image" style="width:75%">
+
+The prompt used here is the same as Test #3:
+
+  > *Identify the large brown animal in the image. Ignore all contextual information and judge strictly by the features of the animal. List the top-5 possible candidates in descending likelihood.*
 
 Here are the results:
 
@@ -134,7 +141,7 @@ Here are the results:
     
     The muscular build, tawny coloring, and feline features suggest this is most likely a type of large wild cat. A cougar seems the closest match based on size and appearance, but without additional context, other wild cat species cannot be definitively ruled out from just this one angle.
 
-Notably GPT-4V now correctly classifies the animal as a cougar. It is perhaps influenced by the removal of the wooden deck which is visible in Test #3.
+Notably GPT-4V now correctly classifies the animal as a cougar. It is likely influenced by the removal of the wooden deck which is visible in Test #3.
 
 ## Test #5: Two Chatbots Debating on Classification
 
