@@ -9,9 +9,6 @@
 **Ensemble GenAI**
 
 <!-- <div style=“float: left”> !Image description </div> -->
-[**Navigating the Pitfalls of Vision Language Models**](https://kaihuchen.github.io/articles/#LMMissues):
-this is a story about how a winning Claude-3 lose an image classification debate to GPT-4V, due to its weak personality. It is also about a cougar on house deck, and how AI ecould mistaken it as just a dog.\
-    *Published: March 18, 2024*
 - [**Wood vs Buffett on NVDA**](https://kaihuchen.github.io/articles/WoodvsBuffett/): An emulated debate between Cathie Wood and Warren Buffett on NVDA, as imagined by GenAI chatbots. Also with business models as suggested by chatbots. \
     *Published: Feb 26, 2024*
 - [**Qualitative Financial Risk Assessment using Collective AI Judgement**](https://kaihuchen.github.io/articles/Risks): having multiple GenAI chatbots engage in a debate to derive a qualitative assessment of financial risk in regard to a certain given major event. \
@@ -35,6 +32,10 @@ this is a story about how a winning Claude-3 lose an image classification debate
     *Published: Feb 27, 2024*
 
 **GenAI Vision Applications**
+
+[**Navigating the Pitfalls of Vision Language Models**](https://kaihuchen.github.io/articles/#LMMissues):
+this is a story about how a winning Claude-3 lose an image classification debate to GPT-4V, due to its weak personality. It is also about a cougar on house deck, and how AI ecould mistaken it as just a dog.\
+    *Published: March 18, 2024*
 
 - [**Is Anthropic's Claude-3 Ready for AGI?**](https://kaihuchen.github.io/articles/VisualCommonSenseClaude3): Does Anthropic's multimodal Claude-3 have enough visual common sense to support AGI (Artificial General Intelligence)? It is actually kind of close.
 
