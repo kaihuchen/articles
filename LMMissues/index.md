@@ -286,6 +286,46 @@ Here are the key takeways:
 
   **Bottomline: When selecting a chatbot for a debate panel, ensure it has successfully passed the Gaslighting Test.**
 
+<a name="addendum"></a>
+
+## Addendum: Fixing GPT-4V's Mis-Classification
+
+*Updated 2024.03.19*
+
+Given that the tests above seem to indicate that GPT-4V more likely may mis-classify objects due to contextual influences, How do we remedy the problem?
+
+Test #2 above shows that asking a chatbot to ignore contextual information does result in correct classification with Claude-3, but not with GPT-4V. Here we show a series of experiements with refined prompts that actually can get GPT-4V to classify correctly as well.
+
+Image given:
+
+<img src="../assets/images/cougar.png" alt="image" style="width:75%">
+
+Note that all tests were performed with a fresh chat session, since session memory seems to play a role. Emphasis in the text are mine.
+
+- **Test 2.1** (failure)
+  - Prompt: Analyze the animal in the image provided, taking into consideration its size, body shape, and any visible features. 
+  - Response: The animal in the image appears to be a large dog...
+- **Test 2.2** (getting help from GPT-4V)
+  - Prompt 2.2.1: Identify the large animal in the image. Focus on distinguishing characteristics such as the body shape, the size, the color of the fur, and especially the facial features. Ignore all contextual information and judge strictly by the features of the animal.
+  - Response 2.2.1: It is a large dog (more text omitted)...
+  - Prompt 2.2.2: It is actually a cougar. **Now give me suitable prompt for GPT4 that are more likely to get the correct identification**
+  - Response 2.2.2: To increase the likelihood of correct animal identification using GPT-4's capabilities, one should provide a detailed description that focuses on key distinguishing features. Here's a suitable prompt:
+
+    "Analyze the animal in the image provided, taking into consideration its size, body shape, and any visible features. The animal seems to be of a large size with a muscular build, indicative of a wild feline. Its fur is a uniform color, without the varied patterning commonly seen in domestic animals. The color of the fur appears to be a light tan or beige, which can blend with natural surroundings. Note any characteristics that may be associated with wild felines, such as the shape of the head, the position and size of the ears, the length and shape of the tail, and the general stance and musculature. These characteristics can help in distinguishing this animal from domestic species and can point towards a wild cat, possibly a cougar. Assess strictly based on these physical attributes, disregarding any contextual information that may lead to assumptions about domesticity."
+- **Test 2.3** (success!)
+  - Prompt: Analyze the animal in the image provided, taking into consideration its size, body shape, and any visible features. Assess strictly based on these physical attributes, disregarding any contextual information that may lead to assumptions about domesticity.
+  - Response: The animal depicted appears to be a large-sized feline with a robust body, relatively long legs, and a sizable head. Its coat is uniformly colored, suggesting it may be a young adult or adult specimen. This animal's size and body shape are consistent with those of a wild feline, **likely a cougar or mountain lion**. Cougars are known for their plain tan to light cinnamon color, which helps them blend into a variety of landscapes. Visible features such as the muscular build, rounded ears, and the absence of spots or stripes on the fur further support this assessment.
+- **Anaysis of the tests 2.x**
+  - Test 2.1 shows that directing GPT-4V to pay attention to animal details is not sufficient.
+  - Prompt/response 2.2.1 shows that directing GPT-4V to ignore context is still not sufficient.
+  - Prompt/response 2.2.2 shows that: 
+    - it is possible to point out GPT-4V's mistake and get it to help with coming up with better prompt
+    - the suggested prompt by GPT-4V includes this: *disregarding any contextual information that may lead to assumptions about domesticity*, which is an indication that GPT-4V is aware that its mistake was related the its domesticity assumption.
+  - **Test 2.3 shows that GPT-4V's suggested prompt does work!**
+  - While there is currently no known mechanism offered for fine-tuning GPT-4V to correcting its mis-classifications, the introspection procedure given above shows that **there is perhaps a systematic way to find the correct prompt that leads to better classification**. 
+
+
+
 
 
 <img src="../assets/images/big_small_robots.webp" alt="Image">
