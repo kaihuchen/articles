@@ -33,7 +33,7 @@
 
 **GenAI Vision Applications**
 
-[**Navigating the Pitfalls of Vision Language Models**](https://kaihuchen.github.io/articles/#LMMissues):
+- [**Navigating the Pitfalls of Vision Language Models**](https://kaihuchen.github.io/articles/#LMMissues):
 this is a story about how a winning Claude-3 lose an image classification debate to GPT-4V, due to its weak personality. It is also about a cougar on house deck, and how AI ecould mistaken it as just a dog.\
     *Published: March 18, 2024*
 
