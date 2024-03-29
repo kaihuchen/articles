@@ -32,6 +32,7 @@ The entries below are listed in *reverse chronological* order
 - [The overall setup of this experiment](#setup)
 - [Goal: Finding a brand name](#brandname)
 - [Goal: Justifying the UIW approach](#justifyuiw)
+- [Goal: Defining subgoals](#subgoals)
 - [Goal: Interfacing UIW with arbitrary web-based GUIs](#selenium)
 - (upcoming) Goal: Understanding GUI contents
 - (upcoming) Goal: Extract data and control a web-based GUI from a chatbot
@@ -574,6 +575,15 @@ A panel of GenAI chatbots are used to assists in fully developing the design pro
     2. Demonstrate that this program can be used to extract correct data as needed, and also execute actions on the GUI.
     3. Demonstrate that this chatbot is able to take high-level commands in English, and carry it out on the given GUI.
     4. Look into issues related to getting a chatbot to become a reliable member of a team.
+
+<a name='subgoals'></a>
+
+## Goal: Defining subgoals
+
+- **Prompt**: 
+
+
+
 
 <a name='selenium'></a>
 
