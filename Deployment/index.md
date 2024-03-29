@@ -31,7 +31,7 @@ Following is a short list of enterprise functions that are the typical targets f
 
 For the sake of making it easier to describe the concept, we will use CRM (Customer Relationship Management) throughout as an example to explain the various pitfalls and possible solutions.
 
-## The *Big-bang* Transition
+## The Peril of the *Big-bang* Transition
 
 Given the rapid progress of the GenAI technology, and the amazing capabilities that it exhibits, it is tempting for enterprises to take the leap to replace exist enterprise softwares with GenAI solutions.
 
@@ -54,7 +54,7 @@ Unfortunately this approach bear high level of risks with cataspheric disruption
   - 
   - 
 
-## Why Choosing Smooth Transition
+## Why Choose Smooth Transition
 
 Transitioning from traditional enterprise software to **GenAI solutions** should be gradual for several important reasons:
 
@@ -141,6 +141,10 @@ Here’s how such an approach can be elaborated:
 - **Ethical Guidelines**: Adhere to ethical guidelines to ensure that the chatbot's operations respect privacy and data protection standards and avoid biased decisions.
 
 By adopting this approach, a GenAI chatbot can be effectively integrated as an enabler within the enterprise, augmenting human capabilities, and facilitating a smooth transition to more automated and intelligent workflows.
+
+## Example: Transitioning to GenAI CRM
+
+
 
 
 <!-- ## Suggested Approach
