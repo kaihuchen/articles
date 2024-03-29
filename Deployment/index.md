@@ -9,7 +9,7 @@
 
 If you plan to replace an important part of your company's functions with GenAI chatbots, then there are many pitfalls in the process that you should be aware of.
 
-The generative AI (GenAI) technology has come a long way, where LLM-based chatbots can now exhibit amazing capabilities that we can only dream of just a few years ago. There is thus a great push to take the leap and replace many corporate functions with GenAI chatbots in the hope offering much better user experience and greater operating efficiency. 
+The generative AI (GenAI) technology has come a long way, where LLM-based chatbots can now exhibit amazing capabilities that we can only dream of just a few years ago. There is thus a great push to take the leap and replace many enterprise softwares with GenAI chatbots in the hope of offering much better user experience and greater prouctivity. 
 
 ## Typical Enterprise Use Cases for GenAI
 
@@ -33,9 +33,13 @@ For the sake of making it easier to describe the concept, we will use CRM (Custo
 
 ## The *Big-bang* Transition
 
-If the enterprise function that you want to upgrade is mission-critical and large-scale, then you need to be keenly aware of the following pitfalls:
+Given the rapid progress of the GenAI technology, and the amazing capabilities that it exhibits, it is tempting for enterprises to take the leap to replace exist enterprise softwares with GenAI solutions.
 
-- Adopting the "big-bang" transition, which involves an sudden transition from old systems to the new GenAI solution. Unfortunately this approach bear high level of risks with cataspheric disruption of services. Any major change of such enterprise software requires careful planning in implementation and roll-out. GenAI chatbots is no exception, and it also poses some special consideration for the following reasons:
+One way to do this is to adopt the "big-bang" approach, which involves an sudden transition from old systems to the new GenAI solution. 
+
+However, if the enterprise function that you want to upgrade is mission-critical and large-scale, then you need to be keenly aware of the following pitfalls:
+
+Unfortunately this approach bear high level of risks with cataspheric disruption of services. Any major change of such enterprise software requires careful planning in implementation and roll-out. GenAI chatbots is no exception, and it also poses some special consideration for the following reasons:
   - Lack of reliability, due to:
     - Lack of diversity
     - Undertrained
