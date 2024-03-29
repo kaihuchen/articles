@@ -9,7 +9,11 @@
 
 If you plan to replace an important part of your company's functions with GenAI chatbots, then there are many pitfalls in the process that you should be aware of.
 
-The generative AI (GenAI) technology has come a long way, where LLM-based chatbots can now exhibit amazing capabilities that we can only dream of just a few years ago. There is thus a great push to take the leap and replace many corporate functions with GenAI chatbots in the hope offering much better user experience and greater operating efficiency. Following is a short list of enterprise functions that are the typical targets for such an movement:
+The generative AI (GenAI) technology has come a long way, where LLM-based chatbots can now exhibit amazing capabilities that we can only dream of just a few years ago. There is thus a great push to take the leap and replace many corporate functions with GenAI chatbots in the hope offering much better user experience and greater operating efficiency. 
+
+## Typical Enterprise Use Cases for GenAI
+
+Following is a short list of enterprise functions that are the typical targets for such an movement:
 
 - Customer Support and Service
 - Internal Knowledge Base and FAQs
@@ -101,7 +105,7 @@ In summary, a gradual transition balances innovation with stability, ensuring su
 
 ## How to Execute a Smooth Transiton to GenAI
 
-Transitioning from traditional enterprise software to a Generative AI (GenAI) solution can be a complex process that should be handled with careful planning and execution. Aside from the standard enterprise software migration practices, we will go into only those that are special to GenAI slutions.
+Transitioning from traditional enterprise software to a Generative AI (GenAI) solution can be a complex process that should be handled with careful planning and execution. Aside from the standard enterprise software migration practices, we will go into only those that are special to GenAI solutions.
 
 
 Integrating a GenAI chatbot as an enabler and supplemental component within an enterprise involves designing it to complement and enhance existing processes and human expertise, rather than replacing them. 
@@ -135,7 +139,7 @@ Here’s how such an approach can be elaborated:
 By adopting this approach, a GenAI chatbot can be effectively integrated as an enabler within the enterprise, augmenting human capabilities, and facilitating a smooth transition to more automated and intelligent workflows.
 
 
-## Suggested Approach
+<!-- ## Suggested Approach
 
 - Build the chatbot as an enabler, not as a replacement
 - Build the chatbot as an apprentice to a huamn expert, and collect many data points or knowledge even in the production environment.
@@ -144,14 +148,11 @@ By adopting this approach, a GenAI chatbot can be effectively integrated as an e
 - Communication with human expert
 - Deploy the chatbots for conitunous improvement and smooth
  transition from full manual operation to automation
-- Take *template-based* approach when appropriate
-
-
-
-
+- Take *template-based* approach when appropriate 
 
 ##  Use Cases
 
+-->
 
 
 <!-- <banner class="page-header" role="banner">
