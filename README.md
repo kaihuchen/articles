@@ -22,6 +22,13 @@
 
 **GenAI for the Enterprises**
 
+- [**Navigating the Challenges of Large-scale Chatbot Deployment**](https://kaihuchen.github.io/articles/Deployment/): When considering the integration of GenAI chatbots within an enterprise's operations, it's crucial to recognize the potential challenges. Key insights include:
+
+- The large-scale and abrupt replacement of human workforce with GenAI chatots (e.g., in helpdesk operations) can be very risky, which often leads to significant service disruptions for various reasons. 
+- Flexible and low-risk transition to GenAI can be achieved, by designing GenAI chatbots not as direct replacement, but as productivity enhancer to the existing workforce.\
+
+    *Published: April 4, 2024*
+
 - [**Brainstorming with Chatbots on building a Universal Information Worker Chatbot**](https://kaihuchen.github.io/articles/Brainstorming/): How to use an ensemble of debating chatbot to design and implement a Universal Information Worker chatbot for enterprises. \
     *Published: March 14, 2024*
 
