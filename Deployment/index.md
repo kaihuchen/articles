@@ -52,7 +52,7 @@ The swift advancement in Generative AI (GenAI) technology and its impressive fun
 
 However, this transition strategy carries several risks:
 
-1. **Inadequate Training Data**: GenAI chatbots require large amounts of high-quality training data. If the data is insufficient, biased, or not representative of real-world scenarios, the chatbot may not perform effectively.
+1. **Inadequate Training**: GenAI chatbots require large amounts of high-quality training data. If the data is insufficient, biased, outdated, or not representative of real-world scenarios, the chatbot may not perform effectively.
 
 2. **Misalignment with Business Objectives**: Failure to align the chatbot's capabilities and functions with the specific needs and objectives of the enterprise can lead to underutilization or irrelevant applications, diminishing its perceived value.
 
