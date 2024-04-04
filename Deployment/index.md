@@ -2,9 +2,9 @@
   <img src="../assets/images/uiw.webp" alt="Banner Image" style="">
 </banner>
 
-*DRAFT*
-
 # Navigating the Challenges of Large-scale Chatbot Deployment
+
+*Published: April 4, 2024*
 
 When considering the integration of GenAI chatbots within an enterprise's operations, it's crucial to recognize the potential challenges. Key insights include:
 
