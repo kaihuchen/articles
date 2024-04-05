@@ -72,9 +72,9 @@ However, this transition strategy carries many of the following risks:
 
 10. **Insufficient Feedback Loops and Continuous Learning**: Without mechanisms for continuous learning and adaptation based on user feedback and interactions, the chatbots may not evolve in line with changing business needs and expectations.
 
-  <!-- 10. **Resistance to Change**: Employees' reluctance to adopt new technology, fearing job loss or the need to acquire new skills, can hinder the successful implementation and integration of GenAI chatbots.
+<!-- 10. **Resistance to Change**: Employees' reluctance to adopt new technology, fearing job loss or the need to acquire new skills, can hinder the successful implementation and integration of GenAI chatbots.
 
-  11. **Inadequate User Training and Support**: Failure to provide sufficient training and support for employees to understand and effectively use the chatbot can lead to underutilization and inefficiency. -->
+11. **Inadequate User Training and Support**: Failure to provide sufficient training and support for employees to understand and effectively use the chatbot can lead to underutilization and inefficiency. -->
 
 Addressing these issues requires careful planning, continuous monitoring, and a willingness to iterate and improve based on feedback and evolving business needs.
 
