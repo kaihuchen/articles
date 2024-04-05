@@ -82,7 +82,7 @@ Addressing these issues requires careful planning, continuous monitoring, and a 
 
 ## Implementing a Flexible Transition to GenAI
 
-Gradually moving from traditional enterprise software to GenAI solutions helps avoid the drawbacks of an abrupt, all-at-once transition. 
+Gradually moving from traditional enterprise software to GenAI solutions helps to avoid the drawbacks of an abrupt, all-at-once transition. 
 
 ### Key Design Strategies
 
