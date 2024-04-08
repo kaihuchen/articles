@@ -44,7 +44,7 @@ then a hasty transition to GenAI chatbots could pose significant risks, since th
 
 <a name="bigbang"></a>
 
-## The Peril of the *Big-bang* Transition
+## Perils of the *Big-bang* Transition
 
 The swift advancement in Generative AI (GenAI) technology and its impressive functionalities often tempt enterprises to replace their existing software and work force with GenAI solutions quickly, a strategy we call the *big-bang transition*. This approach entails an abrupt shift to GenAI systems from the old ones. 
 
