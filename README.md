@@ -88,4 +88,4 @@ this is a story about how a winning Claude-3 lose an image classification debate
 
 # Additional Resources
 
-- We welcome your comments or issue reports here: https://github.com/kaihuchen/articles/issues
+- We welcome your comments or issue reports [here: https://github.com/kaihuchen/articles/issues](here: https://github.com/kaihuchen/articles/issues)
