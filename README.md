@@ -8,6 +8,9 @@
 
 **Ensemble GenAI**
 
+- [**How to Create a GenAI Go-To-Market Playbook Using a Multi-Role Chatbot**](https://kaihuchen.github.io/articles/SchizoBot/): Revolutionize your Go-To-Market strategy with a multi-role chatbot that simulates stakeholder collaboration—an innovative approach also applicable to policy development, product design, project management, and more!\
+    *Published: October 16, 2024*
+
 <!-- <div style=“float: left”> !Image description </div> -->
 - [**Wood vs Buffett on NVDA**](https://kaihuchen.github.io/articles/WoodvsBuffett/): An emulated debate between Cathie Wood and Warren Buffett on NVDA, as imagined by GenAI chatbots. Also with business models as suggested by chatbots. \
     *Published: Feb 26, 2024*
@@ -64,10 +67,9 @@ this is a story about how a winning Claude-3 lose an image classification debate
 - [**Hallucination due to flawed Abductive Reasoning**](Bugs/#abductiveReasoning): My experiments show that most chatbots built from LLMs (Large Language Models) struggle with abductive reasoning, which often leading to incorrect or "hallucinated" responses that aren't easy to spot. \
     *Published: Feb 24, 2024*
 
-# Source Code Repositories
+<!-- # Source Code Repositories
 
-- **Ensemble GenAI**\
-*Not yet published*
+- **Ensemble GenAI**\ -->
 
 # Apps
 
