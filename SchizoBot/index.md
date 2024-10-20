@@ -1,5 +1,5 @@
 <banner class="page-header" role="banner">
-  <img src="../assets/images/schizoBot.webp" alt="Banner Image" style="">
+  <img src="../assets/images/schizoBot.png" alt="Banner Image" style="">
 </banner>
 
 # How to Create a GenAI Go-To-Market Playbook Using a Multi-Role Chatbot
