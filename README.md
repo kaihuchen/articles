@@ -2,7 +2,7 @@
   <img src="assets/images/books.png" alt="Banner Image">
 </banner>
 
-# List of GenAI Articles, Code Repositories, and Apps
+# List of Kaihu Chen's GenAI Articles, Code Repositories, and Apps
 
 <a name="ensemble"></a>
 
