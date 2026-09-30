@@ -1,4 +1,7 @@
-<img src="slipped-constrictor.png" alt="Simulated slipped constrictor knot tied around a rod.">
+<figure class="article-banner">
+  <img src="slipped-constrictor.png" alt="Simulated slipped constrictor knot tied around a rod.">
+  <figcaption>Kith trained itself to tie a Slipped Constrictor Knot with advices from human, no reinforcement learning used. Simulated in MuJoCo. </figcaption>
+</figure>
 
 # Honey, About That Diaper-Changing Robot...
 
