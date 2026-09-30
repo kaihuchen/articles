@@ -1,4 +1,4 @@
-<img src="slipped-constrictor.png" alt="Four-panel instructions for tying a slipped constrictor knot.">
+<img src="slipped-constrictor.png" alt="Simulated slipped constrictor knot tied around a rod.">
 
 # Honey, About That Diaper-Changing Robot...
 
