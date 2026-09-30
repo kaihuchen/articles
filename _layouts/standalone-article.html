@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }}</title>
+  <meta name="description" content="{{ page.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:description" content="{{ page.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  {% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}">{% endif %}
+  <style>
+    :root { color-scheme: light; font-family: Georgia, 'Times New Roman', serif; color: #252a30; background: #fff; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { max-width: 800px; margin: 0 auto; padding: 48px 28px 80px; font-size: 19px; line-height: 1.75; overflow-wrap: break-word; }
+    h1, h2, h3 { font-family: system-ui, sans-serif; line-height: 1.25; color: #17212b; }
+    h1 { font-size: clamp(2rem, 5vw, 2.8rem); margin: 32px 0 20px; letter-spacing: -.035em; }
+    h2 { font-size: 1.45rem; margin-top: 2em; }
+    h1 + h2 { font-size: 1.2rem; font-weight: 400; color: #58636f; margin-top: 0; }
+    p, ul, ol { margin: 1.2em 0; }
+    li { margin: .65em 0; }
+    a { color: #175b96; text-underline-offset: 3px; }
+    a:focus-visible { outline: 2px solid #175b96; outline-offset: 4px; }
+    img, video { display: block; max-width: 100%; height: auto; margin: 0 auto; border-radius: 6px; }
+    figure { margin: 2em 0; }
+    video { width: 100%; background: #111; }
+    figcaption { font: .9rem/1.6 system-ui, sans-serif; color: #58636f; margin-top: 12px; }
+    pre { overflow-x: auto; padding: 16px; background: #f4f6f8; }
+    @media (max-width: 520px) { main { padding: 24px 20px 48px; font-size: 17px; } ul, ol { padding-left: 1.4em; } }
+  </style>
+</head>
+<body>
+  <main><article>{{ content }}</article></main>
+</body>
+</html>

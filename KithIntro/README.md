@@ -1,4 +1,5 @@
-<img src="slipped-constrictor.png" alt="Banner Image" style="">
+<img src="slipped-constrictor.png" alt="Four-panel instructions for tying a slipped constrictor knot.">
+
 # Honey, About That Diaper-Changing Robot...
 
 ## Exploring general-purpose robot learning with VL+A and Human Dialog
@@ -49,7 +50,7 @@ Next, I want to test how well the same approach transfers to other tasks, and th
 As to the diaper changing thing, that remains a manual job for now, but it is still on my roadmap. Trust me!
 
 <figure>
-<video controls playsinline style="max-width: 100%;">
+<video controls playsinline preload="metadata" style="max-width: 100%;">
   <source src="cascade-fast-eye-t53.webm" type="video/webm">
   Your browser does not support embedded video.
 </video>
