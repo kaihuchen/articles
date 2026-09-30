@@ -1,0 +1,22 @@
+{% if site.giscus.repo_id and site.giscus.category_id and page.comments != false %}
+<section aria-labelledby="comments-heading">
+  <h2 id="comments-heading">Comments &amp; reactions</h2>
+  <p style="font: .9rem/1.6 system-ui, sans-serif; color: #58636f;">Sign in with GitHub to join the conversation.</p>
+  <script src="https://giscus.app/client.js"
+          data-repo="kaihuchen/articles"
+          data-repo-id="{{ site.giscus.repo_id }}"
+          data-category="{{ site.giscus.category }}"
+          data-category-id="{{ site.giscus.category_id }}"
+          data-mapping="pathname"
+          data-strict="1"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="top"
+          data-theme="light"
+          data-lang="en"
+          data-loading="lazy"
+          crossorigin="anonymous"
+          async></script>
+  <noscript>Enable JavaScript to view comments and reactions.</noscript>
+</section>
+{% endif %}
