@@ -7,6 +7,8 @@
 
 ## Exploring general-purpose robot learning with VL+A and Human Dialog
 
+<p style="font: .95rem/1.6 system-ui, sans-serif; color: #58636f;">By <a href="https://www.linkedin.com/in/kaihuchen">Kaihu Chen</a> &middot; Published <time datetime="2026-09-29">September 29, 2026</time></p>
+
 When I was dating my future wife in an ancient era when programming meant punching physical cards, I told that sweet and infinitely trusting girl that I would build a robot to change our baby's diapers. Sadly it took a little longer than I expected, but it never left my mind. Thanks to the emergence of AI coding assistants, the project is back from the dead.
 
 How should I approach this tough project? The popular approach, VLA (Vision-Language-Action models), is impressive, but it learns from mountains of robot training data, and I'm fresh out of mountains.
